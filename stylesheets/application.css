@@ -1,0 +1,121 @@
+*{
+  font-family: Verdana, Arial, Helvetica;
+}
+#background-index{
+    background-image: url("../images/background_vida_ativa.jpg");
+}
+
+#background-inicial{
+    background-color: black;
+}
+#top .menu ul {
+    margin: 135px auto;
+    width: 526px;
+    list-style: none;
+}
+#top .menu ul li a{
+    float: left;
+    margin: 0 5px
+    display: none;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background: #3E3D3C;
+    border-right: 2px solid white;
+}
+#top .menu ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+#footer .menu ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#footer .menu ul {
+    width: 540px;
+    list-style: none;
+    float: right;
+    margin: -8px 240px;
+}
+#footer .menu ul li a{
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+    color: black;
+    border-right: 2px solid black;
+}
+#footer .menu{
+    height: 20px;
+    margin-top: 250px;
+    padding: 20px;
+    background-color: #E5E5FF;
+}
+#container{
+    background: white;
+    margin: 3% 29%;
+    min-height: 200px;
+    padding: 1px;
+    width: 56%;
+}
+i{
+    clear: both;
+    display: block;
+}
+#logo_footer img{
+    float: right;
+    padding: 20px;
+}
+#logo_principal{
+    width: 575px;
+    height: 450px;
+    float: left;
+}
+
+#background-inicial .menu li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background: url("../images/bolinha_menu.png")no-repeat;
+    height: 30px;
+    position: absolute;
+    padding: 20px 2px 12px 64px;
+    font-size: 22px;
+}
+#background-inicial .menu li a:hover{
+   -moz-border-radius: 10px;
+   -webkit-border-radius:10px;
+    border-radius:10px;
+    -moz-box-shadow: inset 0px -1px 13px #3E3D3C;
+    -webkit-box-shadow: inset 0px -1px 13px #3E3D3C;
+    box-shadow: inset 0px -1px 13px #3E3D3C;
+    color: red;
+    background: #0D0D0D url("../images/bolinha_menu_hover.png")no-repeat;
+}
+#background-inicial #home {
+    margin: 3% 6%;
+}
+#background-inicial #academia {
+    margin: 9% 4%;
+}
+#background-inicial #equipe {
+    margin: 15% 2%;
+}
+#background-inicial  #modalidades {
+    margin: 20% -4%;
+}
+#background-inicial #fotos {
+    margin: 24% -12%;
+}
+#background-inicial  #contatos {
+    margin: 26% -24%;
+}
+#background-inicial #footer{
+    width: 99%;
+    position: absolute;
+    margin-top: 30%;
+    min-height: 100px;
+    background-color: #E5E5FF;
+    text-align: center;
+}
