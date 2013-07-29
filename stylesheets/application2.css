@@ -29,12 +29,17 @@
     src: local("Cooper Black"), local("Cooper Black, Regular"), url('fonts/CooperBlack.ttf') format('truetype');
 }
 * {
-    font-family: Verdana, Arial, Helvetica
+    font-family: Verdana, Arial, Helvetica;
+    color:white;
 }
 body{
-    background:-webkit-gradient(linear, 50% 100%, 50% 0%, from(#0975C2), to(#74BCE0));
+    background: url("../images/fundo-direita.png") repeat-y right top;;
     background-color: #000;
     margin: 0;
+}
+#fundo{
+    background:url("../images/fundo-esquerda.png") repeat-y left top;
+    padding-top:215px;
 }
 #top_wrapper{
     background: #000;
@@ -50,13 +55,18 @@ body{
 }
 #top{
     height: 198px;
+    background:url("../images/fundo-topo.png") no-repeat right top;
 }
 #top .menu{
     z-index: 2;
     padding-top: 10px;
     height: 30px;
-    margin: 58px 250px;
+    margin: 58px 0 0;
     float: right;
+    background: #666;
+    box-shadow: 0px 20px 29px #000 inset;
+    -moz-box-shadow: 0px 20px 29px #000 inset;
+    -webkit-box-shadow: 0px 20px 29px #000 inset;
 }
 #footer .menu ul {
     margin: 0 395px ;
@@ -82,13 +92,7 @@ body{
     width: 210px;
 }
 #top .menu ul li ul {
-    -moz-box-shadow: inset 0px -10px 18px #28166E;
-    -webkit-box-shadow: inset 0px -10px 18px #28166E;
-    box-shadow: inset 0px -10px 18px #28166E;
     background-color:#0093DD;
-    -moz-border-radius: 10px;
-    -webkit-border-radius:10px;
-    border-radius:10px;
 }
 #footer .menu ul li ul{
     position: absolute;
@@ -110,25 +114,15 @@ body{
     height: 30px;
 }
 #top .menu > ul > li > a {
-    box-shadow:inset 10px 10px 42px #141414;
-    border-right: solid 1px #fff;
     text-decoration: none;
     color: white;
-    -moz-box-shadow: inset 0px -10px 18px #3E3D3C;
-    -webkit-box-shadow: inset 0px -10px 18px #3E3D3C;
-    background-color:#3E3D3C;
-    padding: 5px 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius:10px;
+    padding: 5px 30px;
 }
 #top .menu ul li ul li a {
     text-decoration: none;
     display: block;
     color: white;
     padding: 5px 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius:10px;
-    border-radius:10px;
 }
 #top .menu ul li a:hover,
 #top .menu ul li a.selecionado {
@@ -140,11 +134,11 @@ body{
     margin-left: -50px;
 }
 #container{
-    background: right top url("../images/arabesco_fundo.png") no-repeat white;
-    margin: 215px auto 0;
+    background: black;
+    margin: 0 auto;
     min-height: 200px;
-    padding: 10px;
-    width: 1000px;
+    padding: 10px 40px;
+    width: 908px;
     -moz-box-shadow: 0px 10px 20px #000000;
     -webkit-box-shadow: 0px 10px 20px #000000;
     box-shadow: 0px 10px 20px #000000;
@@ -185,7 +179,7 @@ h1 {
     -moz-box-shadow: 0px 0px 20px #000000;
     -webkit-box-shadow: 0px 0px 20px #000000;
     box-shadow: 0px 0px 20px #000000;
-    background-color: #fff;
+    background-color: #111;
 }
 #footer ul li a:hover {
     text-decoration: underline;
