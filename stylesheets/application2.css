@@ -431,3 +431,19 @@ ol .tip_trigger{
 #danca_ventre_ginasticas:hover{
     text-decoration: underline;
 }
+.espaco{
+    margin-bottom: 70px;
+}
+#container #modalidades h3{
+    text-align: center;
+}
+.aeroStep_horarios,
+.aero_mix_horarios{
+    text-align: center;
+}
+#container table tr td{
+    border: solid 1px #fff;
+}
+.table_horarios{
+    margin: 0 33%;
+}
