@@ -143,6 +143,9 @@ body{
     -webkit-box-shadow: 0px 10px 20px #000000;
     box-shadow: 0px 10px 20px #000000;
 }
+#container.centralizado{
+    text-align:center;
+}
 h1 {
     text-align: center;
 }
