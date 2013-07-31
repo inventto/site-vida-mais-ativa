@@ -5,9 +5,12 @@
         <meta charset="utf-8">
         <link href="stylesheets/application2.css" rel="stylesheet" type="text/css" />
         <script src="javascripts/jquery.min.js" type="text/javascript"></script>
+        <script src="javascripts/jquery.lavalamp.1.3.3-min.js" type="text/javascript"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-                $(".menu").load("_menu.html");
+              $(".menu").load("_menu.html", function(){
+                jQuery('.menu ul').lavaLamp();
+              });
             });
         </script>
     </head>
@@ -28,19 +31,9 @@
           <p>Gaste caloria e divirta-se saltando, dançando e sorrindo.</p>
           <p>Treino com movimentos simples e seguros realizados em um trampolim. Visa condicionamento e queima calórica significativa, com ritmos motivantes e variados.</p>
           <p>Muita música e animação nessa aula.</p>
-          <div class="table_horarios">
-          <table>
-              <tbody>
-                  <tr>
-                      <td>SEGUNDA E QUARTA 20:30 - 21:30</td>
-                  </tr>
-                  <tr>
-                      <td>TERÇA E QUINTA  20:30 - 21:30</td>
-                  </tr>
-              </tbody>
-          </table>
-          </div>
-          <p><strong>DURAÇÃO DA AULA DIÁRIA : 60 minutos</strong></p>
+          <span>SEGUNDA E QUARTA 20:30 - 21:30</span></br>
+          <span>TERÇA E QUINTA  20:30 - 21:30</span>
+          <p class="aero_jump"><strong>DURAÇÃO DA AULA DIÁRIA : 60 minutos</strong></p>
           <i></i>
         </div>
         <div id="footer">

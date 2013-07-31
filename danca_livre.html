@@ -5,9 +5,12 @@
         <meta charset="utf-8">
         <link href="stylesheets/application2.css" rel="stylesheet" type="text/css" />
         <script src="javascripts/jquery.min.js" type="text/javascript"></script>
+        <script src="javascripts/jquery.lavalamp.1.3.3-min.js" type="text/javascript"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-                $(".menu").load("_menu.html");
+              $(".menu").load("_menu.html", function(){
+                jQuery('.menu ul').lavaLamp();
+              });
             });
         </script>
     </head>
@@ -30,7 +33,7 @@
           <p>Através de estudos científicos já se tem comprovado a importância da prática regular de exercícios físicos na vida de um indivíduo. Um programa de exercício físico pode, a depender dos objetivos, promover o emagrecimento, a flexibilidade, a agilidade ou melhoria da aptidão cardiorespiratória,</p>
           <p>A música é um bem comum da humanidade, influenciando o estado psicofisiológico do ser humano. A interação entre dois elementos a música e o exercício físico, são capazes de modificar ou influenciar o estado físico e comportamental do homem, conseqüentemente, contribuindo assim para alterar a percepção de determinadas sensações humanas.</p>
           <p>Nota-se que o exercício físico e a música possuem uma relação expressiva, portanto fazendo aula com ritmos musicais diferentes, além de dar uma ótima sensação de alegria e bem estar, traz muitos benefícios a saúde e ao corpo.</p>
-          <h4><strong>DURAÇÃO DA AULA DIÁRIA : 60 minutos</strong></h4>
+          <p class="danca_livre"><strong>DURAÇÃO DA AULA DIÁRIA : 60 minutos</strong></p>
         </div>
          <div id="footer">
            <a href="http://www.invent.to"><img src="images/logo_footer.png" style="float: right;"/></a>
