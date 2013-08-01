@@ -1,7 +1,15 @@
 <ul class="sf-menu">
     <li><a id="academia" href="index.html">Academia</a></li>
     <li><a id="equipe" href="equipe.html">Equipe</a></li>
-    <li><a id="modalidades" href="modalidades.html">Modalidades</a></li>
+    <li><a id="modalidades" href="modalidades.html">Modalidades</a>
+      <ul class="cursos">
+      </ul>
+      <script type="text/javascript" language="javascript" charset="utf-8">
+        $(".cursos").load("_modalidades.html", function(responseText, textStatus, XMLhttpRequest){
+           $('a[href*=' + window.location.pathname.split("/").reverse()[0] + ']').addClass('selecionado');
+        });
+      </script>
+    </li>
     <li><a id="fotos" href="fotos.html">Fotos</a></li>
     <li><a id="contatos" href="contato.html">Contatos</a></li>
 </ul>

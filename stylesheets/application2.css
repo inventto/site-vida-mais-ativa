@@ -71,7 +71,6 @@ body{
 #footer .menu ul {
     width: 927px;
     margin: -30px 195px;
-    white-space: nowrap;
     list-style: none;
 }
 
@@ -83,29 +82,41 @@ body{
 }
 .menu ul li {
     float: left;
+    z-index: 4;
 }
 .menu ul li ul {
-    margin-top: 5px;
+    margin-top: 45px;
     padding: 10px 0;
     position: absolute;
     display: none;
     z-index: 1;
-    width: 210px;
+    width: 280px;
 }
 #top .menu ul li ul {
-    background-color:#0093DD;
+    box-shadow: 10px 34px 40px #000 inset;
+    -moz-box-shadow: 10px 34px 40px #000 inset;
+    -webkit-box-shadow: 10px 34px 40px #000 inset;
+    background-color: #666;
 }
-#footer .menu ul li ul{
+#footer .menu ul li .cursos li a{
+    border: none;
+}
+#footer .menu ul li .cursos{
+    margin: -371px 0px;
+    box-shadow: 20px 34px 40px #000 inset;
+    -moz-box-shadow: 20px 34px 40px #000 inset;
+    -webkit-box-shadow: 20px 34px 40px #000 inset;
+    background-color: #666;
     position: absolute;
+    width: 280px;
     display: none;
 }
 #footer .menu ul li:hover ul {
     display: block;
 }
 #footer ul li ul li {
-    margin-top: -63px;
-    background-color: rgb(229, 229, 255);
-    border: 1px solid rgb(229, 229, 255);
+    border: none;
+    clear: both;
 }
 .menu ul li:hover ul {
     display: block;
@@ -117,7 +128,7 @@ body{
 #top .menu > ul > li > a {
     text-decoration: none;
     color: white;
-    padding: 5px 30px;
+    padding: 5px 30px 50px;
 }
 #top .menu ul li ul li a {
     text-decoration: none;
@@ -129,7 +140,7 @@ body{
 #footer .menu ul li a.selecionado,
 #top .menu ul li a:hover,
 #top .menu ul li a.selecionado {
-    color: #000;
+    color: #CD0000;
 }
 #logo{
     width: 250px;
