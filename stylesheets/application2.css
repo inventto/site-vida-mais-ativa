@@ -61,20 +61,22 @@ body{
     z-index: 2;
     padding-top: 10px;
     height: 38px;
-    margin: 100px 0 0;
     float: right;
+    width: 100%;
+    margin: 100px 0 0;
     background: #666;
     box-shadow: 0px 20px 29px #000 inset;
     -moz-box-shadow: 0px 20px 29px #000 inset;
     -webkit-box-shadow: 0px 20px 29px #000 inset;
 }
 #footer .menu ul {
-    width: 927px;
-    margin: -30px 195px;
+    width: 710px;
+    margin: -25px 200px;
     list-style: none;
 }
 
 .menu ul {
+    float: right;
     margin: 0 auto;
     white-space: nowrap;
     padding: 0;
@@ -102,7 +104,7 @@ body{
     border: none;
 }
 #footer .menu ul li .cursos{
-    margin: -371px 0px;
+    margin: -405px -2px;
     box-shadow: 20px 34px 40px #000 inset;
     -moz-box-shadow: 20px 34px 40px #000 inset;
     -webkit-box-shadow: 20px 34px 40px #000 inset;
@@ -128,7 +130,7 @@ body{
 #top .menu > ul > li > a {
     text-decoration: none;
     color: white;
-    padding: 5px 30px 50px;
+    padding: 5px 20px 50px;
 }
 #top .menu ul li ul li a {
     text-decoration: none;
@@ -144,7 +146,7 @@ body{
 }
 #logo{
     position: fixed;
-    margin: 0 -50px 250px;
+    margin: 0 -55px 250px;
 }
 #container{
     background: black;
@@ -331,7 +333,6 @@ i{
 .box{
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 30px 30px 30px 30px;
-    padding: 15px;
 }
 #index-albuns {
     float: left;
@@ -453,6 +454,7 @@ ol .tip_trigger{
 #container #modalidades h3{
     text-align: center;
 }
+.personal,
 .danca_livre,
 .aero_jump,
 .aero_ball,
