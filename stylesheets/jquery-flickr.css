@@ -64,12 +64,12 @@
     text-align: center;
 }
 #flickr_sets {
-    width: 250px;
+    width: 200px;
     float: left;
     height: 510px;
     overflow-x: auto;
     overflow-y: hidden;
-    margin: 0 auto;
+    margin: 55px;
 }
 
 #flickr_sets div{
