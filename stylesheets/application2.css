@@ -69,10 +69,16 @@ body{
     -moz-box-shadow: 0px 20px 29px #000 inset;
     -webkit-box-shadow: 0px 20px 29px #000 inset;
 }
+#footer{
+    padding: 5px;
+}
 #footer .menu ul {
-    width: 710px;
-    margin: -25px 200px;
     list-style: none;
+    margin: 0 auto;
+}
+#footer .menu{
+    margin: 0 auto;
+    width: 908px;
 }
 
 .menu ul {
@@ -104,7 +110,7 @@ body{
     border: none;
 }
 #footer .menu ul li .cursos{
-    margin: -405px -2px;
+    margin: -625px -2px;
     box-shadow: 20px 34px 40px #000 inset;
     -moz-box-shadow: 20px 34px 40px #000 inset;
     -webkit-box-shadow: 20px 34px 40px #000 inset;
@@ -198,9 +204,8 @@ h1 {
     text-decoration: underline;
 }
 #footer{
-    height: 20px;
+    height: 41px;
     margin: 0 auto;
-    padding: 20px;
     box-shadow: 0px 34px 29px #000 inset;
     -moz-box-shadow: 0px 34px 29px #000 inset;
     -webkit-box-shadow: 0px 34px 29px #000 inset;
@@ -211,7 +216,7 @@ h1 {
 }
 #footer ul li a{
     border-right: solid 1px #000;
-    padding: 10px;
+    padding: 20px;
     text-decoration: none;
 }
 .texto ul,
@@ -482,3 +487,8 @@ ol .tip_trigger{
 .sf-menu li ul li ul {left: 212px; margin-top: 0px;}
 .sf-menu li a:hover {transition: color 2s;}
 ul.sf-menu li.backLava { position: absolute; z-index: 3; background: url('../images/lavalamp.png') no-repeat; background-position: center 0px; padding:0; height: 16px; margin-top: 26px; width: 50px;}
+.inventto{
+    display: block;
+    margin: 5px auto;
+    width: 91px;
+}

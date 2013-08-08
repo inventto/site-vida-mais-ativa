@@ -1,7 +1,7 @@
 /**
  * jquery.LavaLamp enhances an unordered list of menu-items with a ballooning animated effect
  * similar to the Lava Lamps of the 1970s. Use the CSS provided with the demos at
- * http://nixboxdesigns.com/demos/jquery-lavalamp-demos.html or experiment with your own styles 
+ * http://nixboxdesigns.com/demos/jquery-lavalamp-demos.html or experiment with your own styles
  *
  * Requires jQuery v1.3.2
  *
@@ -41,7 +41,7 @@
  *				setOnClick: true - if set to false, hover will return to default element
  *									regardless of click event.
  *				homeLeft: 0, homeTop: 0 - if either set to non zero value, absolute
- *									positioned li element with class .homeLava is 
+ *									positioned li element with class .homeLava is
  *									prepended to list for homing feature.
  *				homeWidth: 0, homeHeight: 0 - if set, are used for creation of li.homeLava
  *									element.
@@ -52,11 +52,11 @@
  * 					jQuery.noConflict() properly - thanks Colin.
  *
  * Version: 1.3.3 - fixed: added closure with null passed argument for move() command in
- * 					returnDelay to fix errors some were seeing - thanks to Michel and 
+ * 					returnDelay to fix errors some were seeing - thanks to Michel and
  *					Richard for noticing this.
  *
  *					fixed: changed mouseover/out events to mouseenter/leave to fix jerky
- *					animation problem when using excessive margins instead of padding.  
+ *					animation problem when using excessive margins instead of padding.
  *					Thanks to Thomas for the solution and Chris for demonstrating the problem.
  *					this fix requires jQuery 1.3.2 to work.
  *
@@ -65,7 +65,7 @@
  *					create submenus - for details, see examples at
  *					http://nixboxdesigns.com/demos/jquery-lavalamp-demos.html
  *
- *					enhanced: modified to better automatically find default location for 
+ *					enhanced: modified to better automatically find default location for
  *					relative links. Thanks to Harold for testing and finding this bug.
  *
  * Examples and usage:
@@ -79,12 +79,12 @@
  *           <li><a href="#">Fly to Venus</a></li>
  *       </ul>
  *
- * Once you have included the style sheet that comes with the plugin, you will have to include 
+ * Once you have included the style sheet that comes with the plugin, you will have to include
  * a reference to the jQuery library, easing plugin (optional) and the LavaLamp(this) plugin.
  *
  * Use the following snippet to initialize the menu using jQuery easing library::
  * Easing Library 1.3 available here:  http://plugins.jquery.com/project/Easing
- * 
+ *
  *   $(function() { $(".lavaLamp").lavaLamp({ fx: "easeOutBack", speed: 700}) });
  *
  * @param Object - You can specify all the options shown below as object variables:
@@ -102,13 +102,13 @@
  * @option click - no defaults
  * @example
  * $(".lavaLamp").lavaLamp({ click: function(event, menuItem) { return false; } });
- * @desc You can supply a callback to be executed when the menu item is clicked. 
+ * @desc You can supply a callback to be executed when the menu item is clicked.
  * The event object and the menu-item that was clicked will be passed in as arguments.
- * 
+ *
  * @option startItem - default is 'no'
  * @example
  * jQuery(".lavaLamp").lavaLamp({ startItem: 2 });
- * @desc startItem specifies the li element to default to, beginning with 0 for the first li element 
+ * @desc startItem specifies the li element to default to, beginning with 0 for the first li element
  * within the parent UL or OL used to initialize lavaLamp.  This can be used to set default
  * lavaLamp hilight on page reloads.
  */
@@ -116,8 +116,8 @@
 (function(jQuery) {
 jQuery.fn.lavaLamp = function(o) {
 	o = jQuery.extend({ fx: 'swing',
-					  	speed: 500, 
-						click: function(){return true}, 
+					  	speed: 500,
+						click: function(){return true},
 						startItem: 'no',
 						autoReturn: true,
 						returnDelay: 0,
@@ -127,33 +127,33 @@ jQuery.fn.lavaLamp = function(o) {
 						homeWidth:0,
 						homeHeight:0,
 						returnHome:false
-						}, 
+						},
 					o || {});
 
 	var $home;
 	// create homeLava element if origin dimensions set
-	if (o.homeTop || o.homeLeft) { 
+	if (o.homeTop || o.homeLeft) {
 		$home = jQuery('<li class="homeLava selectedLava"></li>').css({ left:o.homeLeft, top:o.homeTop, width:o.homeWidth, height:o.homeHeight, position:'absolute' });
 		jQuery(this).prepend($home);
 	}
-		
+
 	return this.each(function() {
 		var path = location.pathname + location.search + location.hash;
 		var $selected = new Object;
 		var delayTimer;
 		var $back;
 		var ce; //current_element
-		
+
 		var $li = jQuery('li:not(.noLava)', this);
 		// check for complete path match, if so flag element into $selected
 		if ( o.startItem == 'no' )
 			$selected = jQuery('li a[href$="' + path + '"]', this).parent('li');
-			
-		// if still no match, this may be a relative link match 
+
+		// if still no match, this may be a relative link match
 		if ($selected.length == 0 && o.startItem == 'no')
 			$selected = jQuery('li a[href$="' +location.pathname.substring(location.pathname.lastIndexOf('/')+1)+ location.search+location.hash + '"]', this).parent('li');
 
-		// no default selected element matches worked, 
+		// no default selected element matches worked,
 		// or the user specified an index via startItem
 		if ($selected.length == 0 || o.startItem != 'no') {
 			// always default to first item, if no startItem specified.
@@ -172,7 +172,7 @@ jQuery.fn.lavaLamp = function(o) {
 		});
 
 		$back = jQuery('<li class="backLava"><div class="leftLava"></div><div class="bottomLava"></div><div class="cornerLava"></div></li>').appendTo(this);
-		
+
 		// after we leave the container element, move back to default/last clicked element
 		jQuery(this).mouseleave( function() {
 			if (o.autoReturn) {
@@ -209,10 +209,10 @@ jQuery.fn.lavaLamp = function(o) {
 			if (!el) el = ce;
 			// .backLava element border check and animation fix
 			var bx=0, by=0;
-			if (!jQuery.browser.msie) {
+			/* if (!jQuery.browser.msie) {essa variável browser foi retirada da versão 1.9.1 do jquery
 				bx = ($back.outerWidth() - $back.innerWidth())/2;
 				by = ($back.outerHeight() - $back.innerHeight())/2;
-			}
+			}*/
 			$back.stop()
 			.animate({
 				left: el.offsetLeft-bx,
