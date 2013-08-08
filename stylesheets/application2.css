@@ -148,6 +148,13 @@ body{
     position: fixed;
     margin: 0 -55px 250px;
 }
+#logo img{
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -ms-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    transition: all .1s linear;
+}
 #container{
     background: black;
     margin: 0 auto;
