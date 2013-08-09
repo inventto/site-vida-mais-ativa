@@ -152,8 +152,6 @@ jQuery.fn.lavaLamp = function(o) {
 		// if still no match, this may be a relative link match
 		if ($selected.length == 0 && o.startItem == 'no')
 			$selected = jQuery('li a[href$="' +location.pathname.substring(location.pathname.lastIndexOf('/')+1)+ location.search+location.hash + '"]', this).parent('li');
-
-		// no default selected element matches worked,
 		// or the user specified an index via startItem
 		if ($selected.length == 0 || o.startItem != 'no') {
 			// always default to first item, if no startItem specified.
