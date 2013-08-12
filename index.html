@@ -13,19 +13,21 @@
               $(".menu").load("_menu.html", function(){
                 jQuery('#top .menu ul').lavaLamp();
               });
-             });
-          $(function() {
-            $('#slides').slidesjs({
-            width: 940,
-            height: 300,
-            play: {
-            active: true,
-            auto: true,
-            interval: 4000,
-            swap: true
-            }
-          });
-        });
+              $("#slides").load("_slide.html", function(){
+                $(function() {
+                  $('#slides').slidesjs({
+                    width: 940,
+                    height: 300,
+                    play: {
+                    active: true,
+                    auto: true,
+                    interval: 4000,
+                    swap: true
+                    }
+                  });
+                });
+              });
+            });
         </script>
     </head>
     <body>
@@ -42,8 +44,6 @@
             <h1><strong>Academia Vida + Ativa</strong></h1>
         <div id="container">
              <div id="slides">
-               <img src="images/musculacao1.JPG" />
-               <img src="images/musculacao2.JPG" />
              </div>
             <i></i>
         </div>
