@@ -202,13 +202,19 @@ h1 {
     text-decoration: underline;
 }
 #footer{
-    height: 41px;
+    height: 80px;
     margin: 0 auto;
     box-shadow: 0px 34px 29px #000 inset;
     -moz-box-shadow: 0px 34px 29px #000 inset;
     -webkit-box-shadow: 0px 34px 29px #000 inset;
     background-color: #666;
     z-index: 5;
+}
+.endereco{
+    clear: both;
+    text-align: center;
+    display: block;
+    margin: 40px;
 }
 #footer ul li a:hover {
     text-decoration: underline;
