@@ -1,0 +1,53 @@
+<script type="text/javascript">
+     $(document).ready(function(){
+            $(function() {
+                // Stick the #nav to the top of the window
+                var nav = $('#top_wrapper');
+                var img = $('#logo img');
+                var navHomeY = 100;
+                var imgHomeY = 0;
+                var $w = $(window);
+                ajustarMenu = function() {
+                        var scrollTop = $w.scrollTop();
+                        if (scrollTop < navHomeY) {
+                            nav.css({
+                                    top: "-"+scrollTop+"px"
+                                });
+                        }
+                        else {
+                            nav.css({
+                                    top: "-"+navHomeY+"px"
+                                });
+                        }
+                        imgWidth = 300 - scrollTop;
+                        imgLeft = scrollTop / 5;
+                        if (imgWidth < 96)
+                          imgWidth = 96;
+                        if (imgLeft > 40)
+                          imgLeft = 40;
+                        img.css({position: "fixed", marginLeft: imgLeft + "px", top: 0, width: imgWidth+"px"});
+                };
+                $w.scroll(ajustarMenu);
+                ajustarMenu();
+            });
+     });
+</script>
+<ul class="sf-menu">
+    <li><a id="home" href="index.html">Home</a></li>
+    <li><a id="academia" href="academia.html">Academia</a></li>
+    <li><a id="equipe" href="equipe.html">Equipe</a></li>
+    <li><a id="modalidades" href="modalidades.html">Modalidades</a>
+      <ul class="cursos">
+      </ul>
+      <script type="text/javascript">
+        $(".cursos").load("_modalidades.html", function(responseText, textStatus, XMLhttpRequest){
+           page = window.location.pathname.split("/").reverse()[0];
+           if (page.length == 0)
+              page = "index.html";
+           $('a[href*="' + page + '"]').addClass('selecionado');
+        });
+      </script>
+    </li>
+    <li><a id="fotos" href="fotos.html">Fotos</a></li>
+    <li><a id="contatos" href="contato.html">Contatos</a></li>
+</ul>

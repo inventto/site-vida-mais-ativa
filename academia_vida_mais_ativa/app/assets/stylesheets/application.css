@@ -1,0 +1,518 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require refinery/formatting
+ *= require refinery/theme
+ *= require_self
+ */
+@font-face{
+  font-family: "Kunstler Script";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Kunstler Script"), url('./fonts/Kunstler.ttf') format('truetype');
+}
+@font-face{
+  font-family: "JasmineUPC";
+  font-style: normal;
+  font-weight: normal;
+  src: local("JasmineUPC"),  local("JasmineUPC, Regular"), url('fonts/JasmineUPC.ttf') format('truetype');
+}
+@font-face{
+  font-family: "Broadway";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Broadway BT"), local("Broadway BT, Regular"), url('fonts/Broadway.ttf') format('truetype');
+}
+@font-face{
+  font-family: "Bauhaus93";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Bauhaus 93"), local("Bauhaus 93, Regular"), url('fonts/Bauhaus93.ttf') format('truetype');
+}
+@font-face{
+  font-family: "CooperBlack";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Cooper Black"), local("Cooper Black, Regular"), url('fonts/CooperBlack.ttf') format('truetype');
+}
+* {
+  font-family: Verdana, Arial, Helvetica;
+  color:white;
+}
+body{
+  background: url("/assets/fundo-direita.png") repeat-y right top;;
+  background-color: #000;
+  margin: 0;
+}
+#fundo{
+  background:url("/assets/fundo-esquerda.png") repeat-y left top;
+  padding-top:215px;
+}
+#top_wrapper{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding-bottom: 7px;
+  -moz-box-shadow: 0px 0px 20px #000000;
+  -webkit-box-shadow: 0px 0px 20px #000000;
+}
+#top{
+  height: 147px;
+  margin: 0 auto;
+  width: 908px;
+  background:url("/assets/fundo-topo.png") no-repeat right top #000;
+}
+#top .menu{
+  z-index: 2;
+  padding-top: 10px;
+  height: 38px;
+  float: right;
+  width: 100%;
+  margin: 100px 0 0;
+  background: #666;
+  box-shadow: 0px 20px 29px #000 inset;
+  -moz-box-shadow: 0px 20px 29px #000 inset;
+  -webkit-box-shadow: 0px 20px 29px #000 inset;
+}
+#footer{
+  padding: 5px;
+}
+#footer .menu ul {
+  list-style: none;
+  margin: 13px auto 1px;
+}
+#footer .menu{
+  margin: 0 auto;
+  width: 908px;
+}
+
+.menu ul {
+  float: right;
+  margin: 0 auto;
+  white-space: nowrap;
+  padding: 0;
+  list-style: none;
+}
+.menu ul li {
+  float: left;
+  z-index: 4;
+}
+.menu ul li ul {
+  margin-top: 45px;
+  padding: 10px 0;
+  position: absolute;
+  display: none;
+  z-index: 1;
+}
+#top .menu ul li ul {
+  box-shadow: 10px 34px 40px #000 inset;
+  -moz-box-shadow: 10px 34px 40px #000 inset;
+  -webkit-box-shadow: 10px 34px 40px #000 inset;
+  background-color: #666;
+}
+#footer .menu ul li .cursos li a{
+  border: none;
+}
+#footer .menu ul li .cursos{
+  margin: -350px -2px;
+  box-shadow: 20px 34px 40px #000 inset;
+  -moz-box-shadow: 20px 34px 40px #000 inset;
+  -webkit-box-shadow: 20px 34px 40px #000 inset;
+  background-color: #666;
+  position: absolute;
+  display: none;
+}
+#footer .menu ul li:hover ul {
+  display: block;
+}
+#footer ul li ul li {
+  border: none;
+  clear: both;
+}
+.menu ul li:hover ul {
+  display: block;
+}
+.menu ul li ul li {
+  float: none;
+  height: 30px;
+}
+#top .menu > ul > li > a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px 50px;
+}
+#top .menu ul li ul li a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 5px 10px;
+}
+#footer .menu ul li a:hover,
+#footer .menu ul li a.selecionado,
+#top .menu ul li a:hover,
+#top .menu ul li a.selecionado {
+  color: #CD0000;
+}
+#logo{
+  position: fixed;
+  margin: 0 -55px 250px;
+}
+#logo img{
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  -ms-transition: all .1s linear;
+  -o-transition: all .1s linear;
+  transition: all .1s linear;
+}
+#container{
+  background: black;
+  margin: 0 auto;
+  min-height: 200px;
+  padding: 10px 40px;
+  width: 908px;
+  -moz-box-shadow: 0px 10px 20px #000000;
+  -webkit-box-shadow: 0px 10px 20px #000000;
+  box-shadow: 0px 10px 20px #000000;
+}
+#container.centralizado{
+  text-align:center;
+}
+h1 {
+  text-align: center;
+}
+#container #flickr_sets img{
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius:10px;
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+}
+#container #flickr_sets .time-ago{
+  font: 84% vedana;
+  color: #6E6E6E;
+  min-height: 13px;
+  white-space: nowrap;
+  margin-left: 100px;
+}
+#container #flickr_sets a {
+  text-decoration: none;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  padding: 5px;
+}
+#container #flickr_sets a:hover {
+  text-decoration: underline;
+}
+#footer{
+  height: 80px;
+  margin: 0 auto;
+  box-shadow: 0px 34px 29px #000 inset;
+  -moz-box-shadow: 0px 34px 29px #000 inset;
+  -webkit-box-shadow: 0px 34px 29px #000 inset;
+  background-color: #666;
+  z-index: 5;
+}
+.endereco{
+  clear: both;
+  text-align: center;
+  display: block;
+  margin: 40px;
+}
+#footer ul li a:hover {
+  text-decoration: underline;
+}
+#footer > ul > li > a{
+  border-right: solid 1px #000;
+  text-decoration: none;
+}
+.texto ul,
+.texto ul li{
+  list-style: none;
+}
+.texto .cursos a:hover{
+  text-decoration: underline;
+}
+.texto .cursos a {
+  text-decoration: none;
+}
+/*.texto .cursos a:after{
+content: ", ";
+}*/
+.texto{
+  text-align: center;
+  width: 350px;
+  float: right;
+  background-color: rgba(0,0,0,0.1);
+  padding: 15px;
+  border-radius: 30px;
+}
+.texto.full{
+  width: auto;
+  float: none;
+}
+.esquerda {
+  margin-right: 350px;
+}
+.esquerda * {
+  font-size: 12px;
+  line-height: 0.5;
+}
+.titulo{
+  line-height: 1.5;
+  font-size: 100px;
+}
+.foto {
+  width: 350px;
+  float: left;
+}
+.foto img{
+  border: solid 5px;
+  border-radius: 30px;
+  width: 350px;
+}
+.posicao1 {
+  margin: -25px 40px 25px -100px;
+  float:right;
+  background-color: #ffffff;
+  border: solid 4px;
+  border-radius: 30px;
+  padding: 5px;
+  min-width: 250px;
+}
+.inclinacao1{
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+}
+.posicao2{
+  margin: -25px 10px 25px -140px;
+  float: right;
+  background-color: #ffffff;
+  border: solid 4px;
+  border-radius: 30px;
+  padding: 5px;
+  min-width: 250px;
+}
+.inclinacao2{
+  transform: rotate(353deg);
+  -webkit-transform: rotate(353deg);
+  -moz-transform: rotate(353deg);
+  -o-transform: rotate(353deg);
+  -ms-transform: rotate(353deg);
+}
+.posicao3{
+  margin: -25px 70px 25px -140px;
+  float: right;
+  background-color: #ffffff;
+  border: solid 4px;
+  border-radius: 30px;
+  padding: 5px;
+  min-width: 250px;
+}
+.inclinacao3{
+  transform: rotate(353deg);
+  -webkit-transform: rotate(353deg);
+  -moz-transform: rotate(353deg);
+  -o-transform: rotate(353deg);
+  -ms-transform: rotate(353deg);
+}
+i{
+  clear: both;
+  display: block;
+}
+.matriculas_abertas{
+  margin: 15px 175px 19px 0px;
+  display: none;
+  float: right;
+  background-color: #E5E5E5;
+  border-radius: 30px;
+  padding: 5px;
+  width: 250px;
+  text-align: center;
+}
+.matriculas_abertas p{
+  font-size: 15px;
+}
+.matriculas_abertas p strong{
+  font-size: 40px;
+}
+#nivel-iniciante {
+  font-size: 30px;
+}
+#agenda p {
+  text-align: justify;
+}
+#agenda {
+  margin: 0 auto;
+  text-align: center;
+}
+.box{
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 30px 30px 30px 30px;
+}
+#index-albuns {
+  float: left;
+  width: 450px;
+}
+#index-agenda {
+  float: right;
+  text-align: left;
+  width: 450px;
+}
+#index-alunos {
+  text-align: left;
+  margin: 0 auto;
+  width: 500px;
+}
+#legenda{
+  height: 20px;
+  text-align: left;
+  width: 885px;
+  margin: 0 auto;
+}
+#legenda div{
+  float: left;
+  margin-left: 2px;
+}
+#legenda span{
+  margin-left: 2px;
+  width: 120px;
+  text-align: center;
+  color: #fff;
+  border-radius: 12px;
+  height: 20px;
+  float: left;
+}
+#ballet{
+  background: #668CD9;
+}
+#alongamento{
+  background: #9643A5;
+}
+#danca-adulto{
+  background: #5CA632;
+}
+#hip-hop{
+  background: #737373;
+}
+#jazz{
+  background: #D96666;
+}
+#ginasticas{
+  background: #41A587;
+}
+#legenda #danca-ventre{
+  background: #C7561E;
+  width: 150px;
+}
+#iframe-content{
+  width: 800px;
+  margin: 0 auto;
+}
+#horarios{
+  text-align: center;
+}
+#retrospectiva{
+  margin: 0 auto;
+  width: 160px;
+}
+.albuns-foto{
+  margin-left: 250px;
+}
+#sub_menu .cursos{
+  list-style: none;
+  height: 30px;
+  margin: 0 auto;
+  width: 715px;
+}
+#sub_menu .cursos li a{
+  text-decoration: none;
+  float: left;
+  padding: 0 10px;
+}
+#sub_menu .cursos li a:hover{
+  text-decoration: underline;
+}
+.tip {
+  border: solid 2px #000;
+  color: #000;
+  background: #E5E5E5;
+  display:none; /*--Hides by default--*/
+  padding:10px;
+  position:absolute;
+  z-index:1000;
+  border-radius: 20px 20px 20px 20px;
+  max-width: 500px;
+}
+.tip img{
+  max-width: 140px;
+  height: 120px;
+  float: left;
+  margin-right:20px;
+}
+ol .tip_trigger{
+  max-width: 236px;
+  margin-left: 35%;
+}
+.tip_trigger:hover{
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+}
+#danca_ventre_ginasticas{
+  text-decoration: none;
+}
+#danca_ventre_ginasticas:hover{
+  text-decoration: underline;
+}
+.espaco{
+  margin-bottom: 70px;
+}
+#container #modalidades h3{
+  text-align: center;
+}
+.personal,
+.danca_livre,
+.aero_jump,
+.aero_ball,
+.ginastica_horarios,
+.aeroStep_horarios,
+.aero_mix_horarios{
+  text-align: center;
+}
+.ginastica_modalidades{
+  margin: 0 300px;
+}
+#container table tr td{
+  border: solid 1px #fff;
+}
+.sf-menu {position: relative; margin: 0; padding: 0; list-style: none;clear:both; float: left; margin-top: 13px; padding-left: 9px; margin-bottom:1em; z-index: 400;}
+.sf-menu a {display: block; position: relative; text-decoration:none; color: #fff; padding: 1px 20px 0px; height: 15px; text-decoration: none;text-shadow: 1px 1px 1px #000; font-weight: normal; float :left;}
+.sf-menu li {float: left; position: relative; font-family: Arial, Helvetica, sans-serif; background-position: right 5px;}
+.sf-menu li ul li ul {left: 212px; margin-top: 0px;}
+.sf-menu li a:hover {transition: color 2s;}
+ul.sf-menu li.backLava{ position: absolute; z-index: 3; background: url('/assets/lavalamp.png') no-repeat; background-position: center 0px; padding:0; height: 16px; margin-top: 26px; width: 50px;}
+.inventto{
+  display: block;
+  margin: 5px auto;
+  width: 91px;
+}
+h1 {
+  display: none;
+}
