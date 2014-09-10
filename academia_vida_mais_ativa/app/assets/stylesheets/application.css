@@ -45,9 +45,17 @@
   font-weight: normal;
   src: local("Cooper Black"), local("Cooper Black, Regular"), url('fonts/CooperBlack.ttf') format('truetype');
 }
-* {
+*{
   font-family: Verdana, Arial, Helvetica;
   color: #000;
+}
+a{
+ color: #000 !important;
+}
+
+a:hover{
+ color: #CD0000 !important;
+ transition: color 2s;
 }
 body{
   background: url("/assets/fundo-direita.png") repeat-y right top;;
@@ -64,6 +72,7 @@ body{
   top: 0;
   left: 0;
   z-index: 2;
+  background: #fff;
   padding-bottom: 7px;
   -moz-box-shadow: 0px 0px 20px #000000;
   -webkit-box-shadow: 0px 0px 20px #000000;
@@ -121,8 +130,15 @@ body{
   color: #000 !important;
   padding: 5px 10px;
 }
-#top .menu ul li ul li a:hover {
-  color: #CD0000;
+
+#top .menu ul li a {
+  color: #000;
+}
+
+#top .menu ul li ul li a:hover,
+#top .menu ul li a:hover {
+  color: #CD0000 !important;
+  transition: color 3s;
 }
 #top .menu ul li a:hover,
 #top .menu ul li a.selecionado {
@@ -227,20 +243,6 @@ i{
 .albuns-foto{
   margin-left: 250px;
 }
-#sub_menu .cursos{
-  list-style: none;
-  height: 30px;
-  margin: 0 auto;
-  width: 715px;
-}
-#sub_menu .cursos li a{
-  text-decoration: none;
-  float: left;
-  padding: 0 10px;
-}
-#sub_menu .cursos li a:hover{
-  text-decoration: underline;
-}
 .tip {
   border: solid 2px #000;
   color: #000;
@@ -270,15 +272,6 @@ ol .tip_trigger{
   margin-bottom: 70px;
 }
 #container #modalidades h3{
-  text-align: center;
-}
-.personal,
-.danca_livre,
-.aero_jump,
-.aero_ball,
-.ginastica_horarios,
-.aeroStep_horarios,
-.aero_mix_horarios{
   text-align: center;
 }
 .ginastica_modalidades{
