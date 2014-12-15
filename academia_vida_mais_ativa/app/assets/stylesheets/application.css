@@ -58,10 +58,12 @@ a:hover{
  transition: color 2s;
 }
 body{
+  background: url("/assets/fundo-direita.png") repeat-y right top !important;
   background-color: #000;
   margin: 0;
 }
 #fundo{
+  background:url("/assets/fundo-esquerda.png") repeat-y left top !important;
   padding-top: 12%;
 }
 #top_wrapper{
@@ -336,4 +338,80 @@ h1 {
 #footer table, th, td {
   border: 1px solid black;
   padding: 0;
+}
+.historia,
+.valores {
+ float: right;
+ width: 60%;
+ margin-bottom: 2%;
+ background: #000 !important;
+ -webkit-border-top-left-radius: 10px;
+ -webkit-border-top-right-radius: 10px;
+ -webkit-border-bottom-left-radius: 10px;
+ -webkit-border-bottom-right-radius: 10px;
+}
+.valores {
+  margin-bottom: 2%;
+}
+.missao {
+ width: 20%;
+ float: left;
+ margin-left: 12%;
+ text-align: center;
+ background: #000 !important;
+ -webkit-border-top-left-radius: 10px;
+ -webkit-border-top-right-radius: 10px;
+ -webkit-border-bottom-left-radius: 10px;
+ -webkit-border-bottom-right-radius: 10px;
+}
+.container-fluid .titulo_missao {
+  font-weight: bold;
+  margin-left: 13% !important;
+  margin-top: 4%;
+  color: #CD0000 !important;
+} 
+.container-fluid .titulo_valores {
+  font-weight: bold;
+  margin-left: 41% !important;
+  color: #CD0000 !important;
+} 
+.container-fluid .titulo_historia {
+  font-weight: bold;
+  color: #CD0000 !important;
+  margin-top: 2%;
+  margin-left: 41% !important;
+}
+.valores p,
+.missao p,
+.historia p {
+ color: #fff !important;
+}
+.historia p a {
+  color: #CD0000 !important;
+  text-decoration: underline; 
+}
+.mapa {
+  float: left;
+  margin-left: 20%;
+  margin-top: 9%;
+}
+.contato-descricao {
+  text-align: center;
+  width: 23%;
+  float: right;
+  background-color: #000; 
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 4%;
+  margin-right: 20%;
+}
+.contato-descricao h3 strong,
+.contato-descricao p {
+  color: #fff !important;
+}
+.title-contato {
+  margin-top: 7%;
+  margin-left: 58% !important;
+  font-weight: bold;
+  color: #CD0000 !important;
 }
