@@ -55,7 +55,8 @@ a{
 
 a:hover{
  color: #CD0000 !important;
- transition: color 2s;
+ transition: color 0.5s;
+ text-shadow: 3px 4px 6px rgba(150, 150, 150, 1);
 }
 body{
   background: url("/assets/fundo-direita.png") repeat-y right top !important;
@@ -74,8 +75,8 @@ body{
   z-index: 2;
   background: #fff;
   padding-bottom: 7px;
-  -moz-box-shadow: 0px 0px 20px #000000;
-  -webkit-box-shadow: 0px 0px 20px #000000;
+  -moz-box-shadow: 0px 0px 10px #dbdbdb;
+  -webkit-box-shadow: 0px 0px 10px #dbdbdb;
 }
 #top{
   height: 147px;
@@ -85,22 +86,18 @@ body{
 }
 #top .menu{
   z-index: 2;
-  padding-top: 10px;
+  padding: 10px;
   float: right;
   width: 100%;
   margin: 11% 0 0;
-  background: #9B9B9E;
-  -webkit-border-top-left-radius:30px;
-  -webkit-border-top-right-radius:30px;
-  -webkit-border-bottom-left-radius:30px;
-  -webkit-border-bottom-right-radius:30px;
+  background: #dbdbdb;
+  border-radius: 0 20px 20px 30px;
 }
 
 .menu ul {
   float: right;
   margin: 0 auto;
   white-space: nowrap;
-  padding: 0;
   list-style: none;
 }
 .menu ul li {
@@ -142,7 +139,7 @@ body{
 #top .menu ul li ul li a:hover,
 #top .menu ul li a:hover {
   color: #CD0000 !important;
-  transition: color 3s;
+  transition: color 0.7s;
   background: transparent !important;
 }
 #top .menu ul li a:hover,
@@ -283,7 +280,7 @@ ol .tip_trigger{
 .sf-menu a {display: block; position: relative; text-decoration:none; color: #fff; padding: 1px 20px 0px; height: 15px; text-decoration: none;text-shadow: 1px 1px 1px #000; font-weight: normal; float :left;}
 .sf-menu li {float: left; position: relative; font-family: Arial, Helvetica, sans-serif; background-position: right 5px;}
 .sf-menu li ul li ul {left: 212px; margin-top: 0px;}
-.sf-menu li a:hover {transition: color 2s;}
+.sf-menu li a:hover {transition: color 0.5s; text-shadow: 3px 4px 6px rgba(150, 150, 150, 0.5);}
 ul.sf-menu li.backLava{ position: absolute; z-index: 3; background: url('/assets/lavalamp.png') no-repeat; background-position: center 0px; padding:0; height: 16px; margin-top: 26px; width: 50px;}
 h1 {
   display: none;
@@ -369,12 +366,12 @@ h1 {
   margin-left: 13% !important;
   margin-top: 4%;
   color: #CD0000 !important;
-} 
+}
 .container-fluid .titulo_valores {
   font-weight: bold;
   margin-left: 41% !important;
   color: #CD0000 !important;
-} 
+}
 .container-fluid .titulo_historia {
   font-weight: bold;
   color: #CD0000 !important;
@@ -388,7 +385,7 @@ h1 {
 }
 .historia p a {
   color: #CD0000 !important;
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 .mapa {
   float: left;
@@ -399,7 +396,7 @@ h1 {
   text-align: center;
   width: 23%;
   float: right;
-  background-color: #000; 
+  background-color: #000;
   padding: 10px;
   border-radius: 30px;
   margin-bottom: 4%;
