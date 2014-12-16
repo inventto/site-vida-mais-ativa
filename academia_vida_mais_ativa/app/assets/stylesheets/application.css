@@ -157,6 +157,9 @@ body{
   -o-transition: all .1s linear;
   transition: all .1s linear;
 }
+.logo_footer{
+  height:30px;
+}
 #container{
   background: #fff;
   margin: 0 auto;
@@ -300,13 +303,20 @@ h1 {
   height: 100% !important;
 }
 #footer {
-  border-top: 1px solid black;
-  background-color: #E5E5FF;
+  padding-top:2%;
+  background-color: #EFEFEF;
   height: auto !important;
 }
 .inventto{
+  width:100%;
+  background:#333;
+
   float: right;
-  margin-top: 9%;
+  padding:1%;
+
+}
+.inventto > div{
+  color:#fff !important;
 }
 .footer-funcionamento {
   width: 30%;
@@ -314,15 +324,6 @@ h1 {
 .footer-direito {
   float: right;
   width: 30%;
-}
-.redes-sociais {
-  float: left;
-  position:relative;
-  margin-top: 1%;
-}
-.redes-sociais a {
-  position:relative;
-  left: 22%;
 }
 .endereco{
   text-align: center;
