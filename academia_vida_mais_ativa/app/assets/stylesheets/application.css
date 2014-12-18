@@ -13,6 +13,7 @@
  *= require_tree .
  *= require refinery/formatting
  *= require refinery/theme
+ *= require font-awesome
  *= require_self
  */
 @font-face{
@@ -156,16 +157,18 @@ h1 {
   display: none;
 }
 #footer {
-  border-top: 1px solid black;
-  padding-top:2%;
+  border-top: 1px solid #bdbdbd;
+  padding:2%;
   background-color: #EFEFEF;
   height: auto !important;
 }
 .inventto{
   width:100%;
   background:#333;
-  float: right;
   padding:1%;
+}
+.inventto img{
+  height:25px;
 }
 .inventto > div{
   color:#fff !important;
@@ -253,14 +256,7 @@ h1 {
   font-weight: bold;
   color: #CD0000 !important;
 }
-.tabela-funcionamento tr td {
- border: solid #000;
-}
-.tabela-funcionamento {
-  white-space: nowrap;
-  display: block;
-}
-.equipe-2 div p, 
+.equipe-2 div p,
 .equipe-1 div p {
  color: #fff;
 }
@@ -284,15 +280,15 @@ h1 {
   color: #CD0000 !important;
   margin-top: 62px !important;
 }
-.nome-professor-2, 
+.nome-professor-2,
 .imagem-professor-2,
-.nome-professor-1, 
+.nome-professor-1,
 .imagem-professor-1 {
   margin-top: 10%;
 }
-.nome-professor-4, 
-.imagem-professor-4, 
-.nome-professor-3, 
+.nome-professor-4,
+.imagem-professor-4,
+.nome-professor-3,
 .imagem-professor-3 {
   margin-top: 3%;
 }
@@ -305,4 +301,7 @@ h1 {
  border: solid 6px #000;
  display: block;
  border-radius: 50em;
+}
+table{
+  border-radius:3px;
 }
