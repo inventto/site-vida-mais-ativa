@@ -321,8 +321,15 @@ table{
   border-radius:3px;
 }
 #map-canvas {
-  width: 400px;
-  height: 250px;
+  width: 90%;
+  height: auto;
   background-color: #CCC;
   margin-bottom:5%;
+}
+#fb-root {
+    display: none;
+}
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
 }
