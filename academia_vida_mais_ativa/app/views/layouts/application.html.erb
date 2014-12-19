@@ -8,6 +8,7 @@
   <link href="/assets/application.css" rel="stylesheet" type="text/css" />
 
   <link rel="stylesheet" href="/assets/bootstrap.css"/>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
 </head>
 <body>
   <div id="fb-root"></div>
@@ -30,19 +31,21 @@
   <footer id="footer">
     <div class="row">
       <div class="col-md-4 endereco">
+           <p><iframe  width="380" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Academia+Vida+Mais+Ativa+-+Rua+Uni%C3%A3o+da+Vit%C3%B3ria,+Francisco+Beltr%C3%A3o+-+Paran%C3%A1&amp;aq=0&amp;oq=vida+mais+at&amp;sll=-25.060763,-53.397998&amp;sspn=1.11213,2.024231&amp;ie=UTF8&amp;hq=Academia+Vida+Mais+Ativa+-&amp;hnear=R.+Uni%C3%A3o+da+Vit%C3%B3ria+-+Francisco+Beltr%C3%A3o+-+Paran%C3%A1&amp;ll=-26.07231,-53.038941&amp;spn=0.006295,0.006295&amp;t=m&amp;output=embed"></iframe></p>
         <span>Endereço: Av. União da Vitória, 407, Vila Nova, Francisco Beltrão - PR</span><br/>
         <span>Fones: (46) 3524-2541</span> | <span>(46) 3057-2541</span>
       </div>
       <div class="col-md-4">
         <%= render partial: "layouts/tabela_de_funcionamento" %>
       </div>
+
       <div class="col-md-4">
         <span>Acompanhe nas redes sociais:</span><br />
         <div class="fb-like-box" data-href="https://www.facebook.com/pages/Vida-Mais-Ativa/134922059947180" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
       </div>
     </div>
-
   </footer>
+
   <div class="inventto">
     <a href="http://www.invent.to"><img src="/assets/logo_footer.png"/></a>
     <span style="margin:0 auto;"> inventos de <p class="fa fa-heart"></p> </span>
@@ -72,7 +75,7 @@
                 top: "-"+navHomeY+"px"
               });
             }
-            imgWidth = 275 - scrollTop;
+            imgWidth = 230 - scrollTop;
             imgLeft = scrollTop / 5;
             if (imgWidth < 96)
               imgWidth = 70;
@@ -86,4 +89,27 @@
           });
 
    </script>
+
+            <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+              fjs.parentNode.insertBefore(js, fjs);
+
+            }(document, 'script', 'facebook-jssdk'));</script>
+
+           <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(- 26.0756829, -53.0435008),
+          zoom: 16  ,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 </html>
