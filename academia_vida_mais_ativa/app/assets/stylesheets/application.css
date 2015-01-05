@@ -80,10 +80,10 @@ body{
   -webkit-box-shadow: 0px 0px 10px #dbdbdb;
 }
 #top{
-  height: 147px;
+  height: 150px;
   margin: 0 auto;
-  width: 65%;
-  background: url("/assets/fundo-topo.png") no-repeat right top #fff;
+  width: 70%;
+  background: url("/assets/fundo-topo.svg") no-repeat right top #fff;
 }
 #top .menu{
   z-index: 2;
