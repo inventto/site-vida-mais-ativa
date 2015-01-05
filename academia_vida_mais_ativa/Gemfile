@@ -6,6 +6,7 @@ gem 'rails', '4.1.4'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3'
+  gem 'guard-livereload', require: false  
 end
 
 gem "koala"
@@ -59,3 +60,5 @@ gem 'seo_meta', github: 'parndt/seo_meta', branch: 'master'
 gem 'paper_trail', github: 'airblade/paper_trail', branch: 'master'
 
 gem "font-awesome-rails"
+
+gem 'guard'
