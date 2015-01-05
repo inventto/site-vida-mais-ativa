@@ -345,3 +345,9 @@ table{
 object{
   display:none;
 }
+.paginas {
+  opacity: 1.0;
+}
+.paginas:hover {
+  opacity: 0.6;
+}
