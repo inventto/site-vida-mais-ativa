@@ -83,7 +83,7 @@ body{
   height: 150px;
   margin: 0 auto;
   width: 70%;
-  background: url("/assets/fundo-topo.svg") no-repeat right top #fff;
+  background: url("/assets/fundo-topo.png") no-repeat right top #fff;
 }
 #top .menu{
   z-index: 2;
@@ -120,23 +120,31 @@ body{
 #top .menu ul li ul li a {
   text-decoration: none;
   display: block;
-  color: #000 !important;
+  color: #fff !important;
   padding: 5px 10px;
+  background: #bdc3c7;
 }
-
 #top .menu ul li a {
   color: #fff !important;
 }
-
 #top .menu ul li ul li a:hover,
 #top .menu ul li a:hover {
   color: #CD0000 !important;
-  transition: color 0.7s;
+  transition: color 0.5s;
+}
+#top .menu ul li a:hover {
   background: transparent !important;
 }
 #top .menu ul li a:hover,
-#top .menu ul li a.selecionado {
-  color: #CD0000;
+#top .menu ul li.selected a {
+  color: #CD0000 !important;
+}
+#top .menu ul li ul li a:hover {
+  background: #bdc3c7 !important;
+  color: #fff !important;
+}
+#top .menu ul li ul.nav li.selected a {
+  color: #fff !important;
 }
 #logo{
   position: fixed;
@@ -350,4 +358,29 @@ object{
 }
 .paginas:hover {
   opacity: 0.6;
+}
+.titulos-modalidades {
+  text-align: center;
+}
+.titulos-modalidades h2{
+  font-weight: bold;
+  color: #CD0000 !important;
+}
+.caixa-de-texto {
+  margin-bottom: 10px;
+  padding: 10px;
+  float: right;
+  background: #000 !important;
+  border-radius: 10px 10px 10px 10px;
+}
+.caixa-de-texto p, 
+.caixa-de-texto ul li, 
+.caixa-de-texto p span {
+  color: #fff !important;
+}
+.caixa-de-texto p span {
+  font-weight: bold;
+}
+.imagens-modalidades {
+  margin-top: 20px;
 }
