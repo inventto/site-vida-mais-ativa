@@ -141,7 +141,6 @@ body{
 }
 #top .menu ul li ul li a:hover {
   background: #bdc3c7 !important;
-  color: #fff !important;
 }
 #top .menu ul li ul.nav li.selected a {
   color: #fff !important;
@@ -383,4 +382,7 @@ object{
 }
 .imagens-modalidades {
   margin-top: 20px;
+}
+#fotos-facebook {
+  margin-top: 50px
 }
