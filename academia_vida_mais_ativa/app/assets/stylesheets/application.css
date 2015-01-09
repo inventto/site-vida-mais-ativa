@@ -86,7 +86,7 @@ body{
   background: url("/assets/fundo-topo.png") no-repeat right top #fff;
 }
 #top .menu{
-  z-index: 2;
+  z-index: 20;
   padding: 10px;
   float: right;
   width: 100%;
@@ -136,14 +136,11 @@ body{
   background: transparent !important;
 }
 #top .menu ul li a:hover,
-#top .menu ul li.selected a {
+#top .menu ul li a.selecionado {
   color: #CD0000 !important;
 }
 #top .menu ul li ul li a:hover {
   background: #bdc3c7 !important;
-}
-#top .menu ul li ul.nav li.selected a {
-  color: #fff !important;
 }
 #logo{
   position: fixed;
@@ -280,6 +277,7 @@ h1 {
 .equipe-2 .professor-3 {
   margin-bottom: 1%;
 }
+
 .nome-professor-4 h3,
 .nome-professor-3 h3,
 .nome-professor-2 h3,
@@ -329,7 +327,6 @@ h1 {
 .imagem-professor-1 img {
   width: 100px !important;
   height: 100px !important;
-  border: solid 6px #000;
   display: block;
   border-radius: 50em;
 }
@@ -358,9 +355,14 @@ object{
 .paginas:hover {
   opacity: 0.6;
 }
+.titulos-fotos {
+ margin-top: 30px;
+}
+.titulos-fotos,
 .titulos-modalidades {
   text-align: center;
 }
+.titulos-fotos h2,
 .titulos-modalidades h2{
   font-weight: bold;
   color: #CD0000 !important;
@@ -384,5 +386,5 @@ object{
   margin-top: 20px;
 }
 #fotos-facebook {
-  margin-top: 50px
+  margin-top: 10px
 }

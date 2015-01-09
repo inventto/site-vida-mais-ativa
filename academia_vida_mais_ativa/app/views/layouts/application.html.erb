@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link href="/assets/application.css" rel="stylesheet" type="text/css" />
-
   <link rel="stylesheet" href="/assets/bootstrap.css"/>
 </head>
 <body>
@@ -87,7 +86,6 @@
               ajustarMenu();
             });
           });
-
    </script>
    <script>
      (function(d, s, id) {
@@ -109,5 +107,13 @@
         var map = new google.maps.Map(mapCanvas, mapOptions)
       }
       google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        page = window.location.pathname.split("/").reverse()[0];
+         if (page.length == 0)
+           page = "/home";
+        $('a[href$="'+ page + '"]').addClass('selecionado');
+      });
     </script>
 </html>
