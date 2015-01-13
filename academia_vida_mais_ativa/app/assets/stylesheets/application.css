@@ -69,6 +69,7 @@ body{
   padding-top: 12%;
 }
 #top_wrapper{
+  z-index: 18 !important;
   position: fixed;
   width: 100%;
   top: 0;
@@ -86,7 +87,7 @@ body{
   background: url("/assets/fundo-topo.png") no-repeat right top #fff;
 }
 #top .menu{
-  z-index: 20;
+  z-index: 20 !important;
   padding: 10px;
   float: right;
   width: 100%;
@@ -120,12 +121,12 @@ body{
 #top .menu ul li ul li a {
   text-decoration: none;
   display: block;
-  color: #fff !important;
+  color: #000 !important;
   padding: 5px 10px;
   background: #bdc3c7;
 }
 #top .menu ul li a {
-  color: #fff !important;
+  color: #000 !important;
 }
 #top .menu ul li ul li a:hover,
 #top .menu ul li a:hover {
@@ -199,7 +200,7 @@ h1 {
   float: right;
   width: 60%;
   margin-bottom: 2%;
-  background: #000 !important;
+  background: #e0e3e5 !important;
   border-radius: 10px 10px 10px 10px;
 }
 .valores {
@@ -211,7 +212,7 @@ h1 {
   float: left;
   margin-left: 12%;
   text-align: center;
-  background: #000 !important;
+  background: #e0e3e5 !important;
   border-radius: 10px 10px 10px 10px;
 }
 .container-fluid .titulo_missao {
@@ -225,16 +226,11 @@ h1 {
   margin-left: 41% !important;
   color: #CD0000 !important;
 }
-.container-fluid .titulo_historia {
+.titulo_historia {
   font-weight: bold;
   color: #CD0000 !important;
-  margin-top: 2%;
+  margin-top: 50px;
   margin-left: 41% !important;
-}
-.valores p,
-.missao p,
-.historia p {
-  color: #fff !important;
 }
 .historia p a {
   color: #CD0000 !important;
@@ -248,36 +244,27 @@ h1 {
 }
 .contato-descricao {
   text-align: center;
-  background-color: #000;
+  background: #e0e3e5 !important;
   padding: 10px;
   border-radius: 30px;
-}
-.contato-descricao h3 strong,
-.contato-descricao p {
-  color: #fff !important;
 }
 .title-contato {
   text-align: center;
   font-weight: bold;
   color: #CD0000 !important;
 }
-.equipe-2 div p,
-.equipe-1 div p {
-  color: #fff;
-}
 .equipe-2 .professor-4,
 .equipe-2 .professor-3,
 .equipe-1 .professor-2,
 .equipe-1 .professor-1 {
   padding: 10px;
-  background: #000 !important;
+  background: #e0e3e5 !important;
   border-radius: 30px 30px 30px 30px;
 }
 .equipe-2 .professor-4,
 .equipe-2 .professor-3 {
   margin-bottom: 1%;
 }
-
 .nome-professor-4 h3,
 .nome-professor-3 h3,
 .nome-professor-2 h3,
@@ -371,13 +358,8 @@ object{
   margin-bottom: 10px;
   padding: 10px;
   float: right;
-  background: #000 !important;
+  background: #e0e3e5 !important;
   border-radius: 10px 10px 10px 10px;
-}
-.caixa-de-texto p, 
-.caixa-de-texto ul li, 
-.caixa-de-texto p span {
-  color: #fff !important;
 }
 .caixa-de-texto p span {
   font-weight: bold;
@@ -387,4 +369,12 @@ object{
 }
 #fotos-facebook {
   margin-top: 10px
+}
+.ps-caption b {
+  color: #fff !important;
+  font-size: 16px;
+}
+ul.pgwSlider>li span, 
+.pgwSlider>.ps-list>li span {
+  color: #fff !important;
 }

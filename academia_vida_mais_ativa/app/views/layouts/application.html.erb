@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
   <head>
   <title>Academia Vida Mais Ativa</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Site da Academia vida mais ativa, compretimento com seu bem estar e qualidade de vida." />
   <link href="/assets/application.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="/assets/bootstrap.css"/>
+  <link rel="stylesheet" href="/assets/pgwslider.min.css"/>
 </head>
 <body>
   <div id="fb-root"></div>
@@ -54,6 +57,7 @@
    <script src="https://maps.googleapis.com/maps/api/js"></script>
    <script src="/assets/jquery-2.1.3.min.js"></script>
    <script src="/assets/bootstrap.js"></script>
+   <script src="/assets/pgwslider.min.js"></script>
    <script type="text/javascript">
       $(document).ready(function(){
         $(function() {
@@ -78,9 +82,9 @@
             imgLeft = scrollTop / 5;
             if (imgWidth < 96)
               imgWidth = 70;
-              if (imgLeft > 40)
-                imgLeft = 40;
-                img.css({position: "fixed", marginLeft: imgLeft + "px", top: 0, width: imgWidth+"px"});
+              if (imgLeft > 35)
+                imgLeft = 32;
+                img.css({position: "fixed", marginLeft: imgLeft + "px", top: "4px", width: imgWidth+"px"});
               };
               $w.scroll(ajustarMenu);
               ajustarMenu();
@@ -114,6 +118,26 @@
          if (page.length == 0)
            page = "/home";
         $('a[href$="'+ page + '"]').addClass('selecionado');
+      });
+    </script>
+    <script>
+      $(document).ready(function() {
+        var pgwSlider = $('.pgwSlider').pgwSlider();
+        pgwSlider.startSlide();
+        pgwSlider.getCurrentSlide();
+        pgwSlider.getSlideCount();
+        pgwSlider.displaySlide(3);
+        pgwSlider.nextSlide();
+        pgwSlider.previousSlide();
+        pgwSlider.reload({
+          mainClassName: 'pgwSlider',
+          selectionMode: 'click',
+          transitionEffect: 'fading',
+          displayControls: 'true',
+          verticalCentering: 'true',
+          adaptiveHeight: 'true',
+          displayList: 'true'
+        });
       });
     </script>
 </html>
