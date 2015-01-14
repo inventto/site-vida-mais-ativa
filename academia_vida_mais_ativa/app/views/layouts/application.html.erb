@@ -6,7 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="viewport" content="width=device-width">
+  <meta name="author" content="Invent.to www.invent.to" > 
   <meta name="description" content="Site da Academia vida mais ativa, compretimento com seu bem estar e qualidade de vida." />
+  <meta name="keywords" content="Academia aeromix coreografias, Musculação, Personal Trainer, Funcional, Alongamento, Avaliação física e postural, Ginástica, Aero Dance, Aero Jump, Aeromix, Aerostep, Zumba, Ginástica Laboral, Academia vida mais ativa, Vida mais ativa, Francisco Beltrão, Paraná, academia, Vila Nova" />
   <link href="/assets/application.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="/assets/bootstrap.css"/>
   <link rel="stylesheet" href="/assets/pgwslider.min.css"/>
@@ -99,45 +101,46 @@
        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
        fjs.parentNode.insertBefore(js, fjs);
 
-     }(document, 'script', 'facebook-jssdk'));</script>
-    <script>
-      function initialize() {
-        var mapCanvas = document.getElementById('map-canvas');
-        var mapOptions = {
-          center: new google.maps.LatLng(- 26.0756829, -53.0435008),
-          zoom: 16  ,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        page = window.location.pathname.split("/").reverse()[0];
-         if (page.length == 0)
-           page = "/home";
-        $('a[href$="'+ page + '"]').addClass('selecionado');
-      });
-    </script>
-    <script>
-      $(document).ready(function() {
-        var pgwSlider = $('.pgwSlider').pgwSlider();
-        pgwSlider.startSlide();
-        pgwSlider.getCurrentSlide();
-        pgwSlider.getSlideCount();
-        pgwSlider.displaySlide(3);
-        pgwSlider.nextSlide();
-        pgwSlider.previousSlide();
-        pgwSlider.reload({
-          mainClassName: 'pgwSlider',
-          selectionMode: 'click',
-          transitionEffect: 'fading',
-          displayControls: 'true',
-          verticalCentering: 'true',
-          adaptiveHeight: 'true',
-          displayList: 'true'
-        });
-      });
-    </script>
+       }(document, 'script', 'facebook-jssdk'));
+   </script>
+   <script>
+     function initialize() {
+       var mapCanvas = document.getElementById('map-canvas');
+       var mapOptions = {
+         center: new google.maps.LatLng(- 26.0756829, -53.0435008),
+         zoom: 16  ,
+         mapTypeId: google.maps.MapTypeId.ROADMAP
+       }
+       var map = new google.maps.Map(mapCanvas, mapOptions)
+     }
+     google.maps.event.addDomListener(window, 'load', initialize);
+   </script>
+   <script type="text/javascript">
+     $(document).ready(function(){
+       page = window.location.pathname.split("/").reverse()[0];
+        if (page.length == 0)
+          page = "/home";
+       $('a[href$="'+ page + '"]').addClass('selecionado');
+     });
+   </script>
+   <script>
+     $(document).ready(function() {
+       var pgwSlider = $('.pgwSlider').pgwSlider();
+       pgwSlider.startSlide();
+       pgwSlider.getCurrentSlide();
+       pgwSlider.getSlideCount();
+       pgwSlider.displaySlide(3);
+       pgwSlider.nextSlide();
+       pgwSlider.previousSlide();
+       pgwSlider.reload({
+         mainClassName: 'pgwSlider',
+         selectionMode: 'click',
+         transitionEffect: 'fading',
+         displayControls: 'true',
+         verticalCentering: 'true',
+         adaptiveHeight: 'true',
+         displayList: 'true'
+       });
+     });
+   </script>
 </html>
