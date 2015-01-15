@@ -342,17 +342,22 @@ object{
 .paginas:hover {
   opacity: 0.6;
 }
-.titulos-fotos {
+#titulos-fotos-espaco-fisico {
  margin-top: 110px;
+}
+.titulos-noticias {
+ margin-top: 60px;
 }
 .titulos-fotos,
 .titulos-modalidades {
   text-align: center;
 }
+.titulos-noticias h2,
 .titulos-fotos h2,
 .titulos-modalidades h2{
   font-weight: bold;
   color: #CD0000 !important;
+  text-align: center;
 }
 .caixa-de-texto {
   margin-bottom: 10px;
