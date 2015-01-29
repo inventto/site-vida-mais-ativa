@@ -382,3 +382,7 @@ ul.pgwSlider>li span,
 .pgwSlider>.ps-list>li span {
   color: #fff !important;
 }
+#img-selo {
+  position: absolute;
+  margin-left: 70%;
+}

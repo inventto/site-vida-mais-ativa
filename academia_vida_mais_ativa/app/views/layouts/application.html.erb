@@ -1,60 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-  <title>Academia Vida Mais Ativa</title>
-  <meta charset="utf-8">
-  <meta name="google-site-verification" content="kXJdGR7B6VxqawKGvO4ARdzyo9KHutHAvrxFKb58GtY" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <meta name="viewport" content="width=device-width">
-  <meta name="author" content="Invent.to www.invent.to" > 
-  <meta name="description" content="Site da Academia vida mais ativa, compretimento com seu bem estar e qualidade de vida." />
-  <meta name="keywords" content="Academia aeromix coreografias, Musculação, Personal Trainer, Funcional, Alongamento, Avaliação física e postural, Ginástica, Aero Dance, Aero Jump, Aeromix, Aerostep, Zumba, Ginástica Laboral, Academia vida mais ativa, Vida mais ativa, Francisco Beltrão, Paraná, academia, Vila Nova" />
-  <link href="/assets/application.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-  <div id="fb-root"></div>
-  <div id="fundo">
-    <div id="top_wrapper">
-      <div id="top">
-        <div id="logo">
-          <a href="/home"><img src="/assets/logo_vida.png" title="Academia Vida mais Ativa"/></a>
-        </div>
-        <div class="menu">
-          <%= menu_refinery_top.to_html %>
+    <title>Academia Vida Mais Ativa</title>
+    <meta charset="utf-8">
+    <meta name="google-site-verification" content="kXJdGR7B6VxqawKGvO4ARdzyo9KHutHAvrxFKb58GtY" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Invent.to www.invent.to" > 
+    <meta name="description" content="Site da Academia vida mais ativa, compretimento com seu bem estar e qualidade de vida." />
+    <meta name="keywords" content="Academia aeromix coreografias, Musculação, Personal Trainer, Funcional, Alongamento, Avaliação física e postural, Ginástica, Aero Dance, Aero Jump, Aeromix, Aerostep, Zumba, Ginástica Laboral, Academia vida mais ativa, Vida mais ativa, Francisco Beltrão, Paraná, academia, Vila Nova" />
+    <link href="/assets/application.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <div id="fundo">
+      <div id="top_wrapper">
+        <div id="top">
+          <img id="img-selo" src="/assets/selo.jpg" title="Academia Vida mais Ativa" width="100"/>
+          <div id="logo">
+            <a href="/home"><img src="/assets/logo_vida.png" title="Academia Vida mais Ativa"/></a>
+          </div>
+          <div class="menu">
+            <%= menu_refinery_top.to_html %>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container-fluid">
-    <%= yield %>
-    <i></i>
-  </div>
-  <footer id="footer">
-    <div class="row">
-      <div class="col-md-4 endereco">
-           <p><iframe  width="380" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Academia+Vida+Mais+Ativa+-+Rua+Uni%C3%A3o+da+Vit%C3%B3ria,+Francisco+Beltr%C3%A3o+-+Paran%C3%A1&amp;aq=0&amp;oq=vida+mais+at&amp;sll=-25.060763,-53.397998&amp;sspn=1.11213,2.024231&amp;ie=UTF8&amp;hq=Academia+Vida+Mais+Ativa+-&amp;hnear=R.+Uni%C3%A3o+da+Vit%C3%B3ria+-+Francisco+Beltr%C3%A3o+-+Paran%C3%A1&amp;ll=-26.07231,-53.038941&amp;spn=0.006295,0.006295&amp;t=m&amp;output=embed"></iframe></p>
-        <span>Endereço: Av. União da Vitória, 407, Vila Nova, Francisco Beltrão - PR</span><br/>
-        <span>Fones: (46) 3524-2541</span> | <span>(46) 3057-2541</span>
-      </div>
-      <div class="col-md-4">
-        <%= render partial: "layouts/tabela_de_funcionamento" %>
-      </div>
-
-      <div class="col-md-4">
-        <span>Acompanhe nas redes sociais:</span><br />
-        <div class="fb-like-box" data-href="https://www.facebook.com/pages/Vida-Mais-Ativa/134922059947180" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
-      </div>
+    <div class="container-fluid">
+      <%= yield %>
+      <i></i>
     </div>
-  </footer>
+    <footer id="footer">
+      <div class="row">
+        <div class="col-md-4 endereco">
+          <p><iframe  width="380" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Academia+Vida+Mais+Ativa+-+Rua+Uni%C3%A3o+da+Vit%C3%B3ria,+Francisco+Beltr%C3%A3o+-+Paran%C3%A1&amp;aq=0&amp;oq=vida+mais+at&amp;sll=-25.060763,-53.397998&amp;sspn=1.11213,2.024231&amp;ie=UTF8&amp;hq=Academia+Vida+Mais+Ativa+-&amp;hnear=R.+Uni%C3%A3o+da+Vit%C3%B3ria+-+Francisco+Beltr%C3%A3o+-+Paran%C3%A1&amp;ll=-26.07231,-53.038941&amp;spn=0.006295,0.006295&amp;t=m&amp;output=embed"></iframe></p>
+          <span>Endereço: Av. União da Vitória, 407, Vila Nova, Francisco Beltrão - PR</span><br/>
+          <span>Fones: (46) 3524-2541</span> | <span>(46) 3057-2541</span>
+        </div>
+        <div class="col-md-4">
+          <%= render partial: "layouts/tabela_de_funcionamento" %>
+        </div>
 
-  <div class="inventto">
-    <a href="http://www.invent.to"><img src="/assets/logo_footer.png"/></a>
-    <span style="margin:0 auto;"> inventos de <p class="fa fa-heart"></p> </span>
-  </div>
+        <div class="col-md-4">
+          <span>Acompanhe nas redes sociais:</span><br />
+          <div class="fb-like-box" data-href="https://www.facebook.com/pages/Vida-Mais-Ativa/134922059947180" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+        </div>
+      </div>
+    </footer>
 
-
-</body>
+    <div class="inventto">
+      <a href="http://www.invent.to"><img src="/assets/logo_footer.png"/></a>
+      <span style="margin:0 auto;"> inventos de <p class="fa fa-heart"></p> </span>
+    </div>
+  </body>
    <script src="https://maps.googleapis.com/maps/api/js"></script>
    <script src="/assets/jquery-2.1.3.min.js"></script>
    <script src="/assets/bootstrap.js"></script>
@@ -121,4 +120,4 @@
        $('a[href$="'+ page + '"]').addClass('selecionado');
      });
    </script>
- </html>
+</html>
