@@ -67,6 +67,9 @@ body{
 .container-fluid {
   background:url("/assets/fundo-esquerda.jpg") repeat-y left top !important;
 }
+#fundo {
+  height: 166px;
+}
 #top_wrapper{
   z-index: 18 !important;
   position: fixed;
@@ -377,11 +380,8 @@ object{
   color: #fff !important;
   font-size: 16px;
 }
-ul.pgwSlider>li span, 
-.pgwSlider>.ps-list>li span {
-  color: #fff !important;
-}
 #img-selo {
   position: fixed;
   right: 0;
+  top: 0;
 }
