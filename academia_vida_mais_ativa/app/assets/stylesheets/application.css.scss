@@ -16,6 +16,9 @@
 *= require font-awesome
 *= require_self
 */
+
+@import 'normalize';
+
 @font-face{
   font-family: "Kunstler Script";
   font-style: normal;
@@ -86,12 +89,13 @@ body{
   width: 70%;
   background: url("/assets/fundo-topo.png") no-repeat right top #fff;
 }
+
 #top .menu{
   z-index: 20 !important;
   padding: 10px;
   float: right;
   width: 100%;
-  margin: 11% 0 0;
+  margin: 97px 0 0;
   background: #bdc3c7;
   border-radius: 20px 20px 20px 20px;
 }
@@ -196,41 +200,42 @@ h1 {
 }
 .historia,
 .valores {
-  padding: 10px;
-  float: right;
-  width: 60%;
-  margin-bottom: 2%;
+  padding: 1%;
+  margin: 5px;
+  text-align: justify;
   background: #e0e3e5 !important;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 8px 8px 8px 8px;
 }
+
+.professor {
+  padding: 1%;
+  margin: 5px;
+  text-align: justify;
+  background: #e0e3e5 !important;
+  border-radius: 8px 8px 8px 8px;
+}
+
 .valores {
   margin-bottom: 2%;
 }
 .missao {
-  padding: 10px;
-  width: 20%;
-  float: left;
-  margin-left: 12%;
+  padding: 4%;
   text-align: center;
   background: #e0e3e5 !important;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 8px 8px 8px 10px;
+  margin-bottom:4%;
 }
-.container-fluid .titulo_missao {
+.titulo_missao {
   font-weight: bold;
-  margin-left: 13% !important;
-  margin-top: 4%;
   color: #CD0000 !important;
 }
 .container-fluid .titulo_valores {
   font-weight: bold;
-  margin-left: 41% !important;
   color: #CD0000 !important;
 }
 .titulo_historia {
   font-weight: bold;
   color: #CD0000 !important;
-  margin-top: 50px;
-  margin-left: 41% !important;
 }
 .historia p a {
   color: #CD0000 !important;
@@ -259,16 +264,15 @@ h1 {
 .equipe-1 .professor-1 {
   padding: 10px;
   background: #e0e3e5 !important;
-  border-radius: 30px 30px 30px 30px;
+  border-radius: 8px;
+  padding:4%;
+  height:250px;
 }
 .equipe-2 .professor-4,
 .equipe-2 .professor-3 {
   margin-bottom: 1%;
 }
-.nome-professor-4 h3,
-.nome-professor-3 h3,
-.nome-professor-2 h3,
-.nome-professor-1 h3 {
+.nome-professor h3{
   font-weight: bold;
   color: #CD0000 !important;
   margin-top: 65px !important;
@@ -378,7 +382,7 @@ object{
   color: #fff !important;
   font-size: 16px;
 }
-ul.pgwSlider>li span, 
+ul.pgwSlider>li span,
 .pgwSlider>.ps-list>li span {
   color: #fff !important;
 }
