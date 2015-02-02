@@ -63,13 +63,15 @@ a:hover{
   text-shadow: 3px 4px 6px rgba(150, 150, 150, 1);
 }
 body{
-  background: url("/assets/fundo-direita.png") repeat-y right top !important;
+  background: url("/assets/fundo-direita.jpg") repeat-y right top !important;
   background-color: #000;
   margin: 0;
 }
-#fundo{
-  background:url("/assets/fundo-esquerda.png") repeat-y left top !important;
-  padding-top: 12%;
+.container-fluid {
+  background:url("/assets/fundo-esquerda.jpg") repeat-y left top !important;
+}
+#fundo {
+  height: 166px;
 }
 #top_wrapper{
   z-index: 18 !important;
@@ -387,6 +389,7 @@ ul.pgwSlider>li span,
   color: #fff !important;
 }
 #img-selo {
-  position: absolute;
-  margin-left: 70%;
+  position: fixed;
+  right: 0;
+  top: 0;
 }
