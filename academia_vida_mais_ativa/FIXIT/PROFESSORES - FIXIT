@@ -1,76 +1,71 @@
-  <div class="container">
-    <div class="row">
-
-
-
-      <div class=" professor">
-        <div class="foto">
-          <img src="/system/images/W1siZiIsIjIwMTUvMDEvMDkvMmJxYmJmb25yaV9BREVMSU8ucG5nIl0sWyJwIiwidGh1bWIiLCIxMTB4MTEwXHUwMDNlIl1d/ADELIO.png" title="Adelio" alt="Adelio" data-rel="110x110" width="101" height="102" />
-        </div>
-        <div class="nome-professor">
-          <h3>Adélio Guedes</h3>
-        </div>
-        <div>
-          <p><b>GRADUAÇÃO:</b> Licenciatura plena em Educação Física </p>
-          <p><b>CURSOS EM:</b></p>
-          <p>Hipertrofia Total</p>
-          <p>Suplementação Alimentar e Emagrecimento</p>
-        </div>
+   <div class="container">
+      <div class="row">
+         <div class="col-md-6">
+            <div class=" professor">
+               <div class="foto">
+                  <img src="/system/images/W1siZiIsIjIwMTUvMDEvMDkvMmJxYmJmb25yaV9BREVMSU8ucG5nIl0sWyJwIiwidGh1bWIiLCIxMTB4MTEwXHUwMDNlIl1d/ADELIO.png" title="Adelio" alt="Adelio" data-rel="110x110" width="101" height="102" />
+               </div>
+               <div class="nome-professor">
+                  <h3>Adélio Guedes</h3>
+               </div>
+               <div>
+                  <p><b>GRADUAÇÃO:</b> Licenciatura plena em Educação Física </p>
+                  <p><b>CURSOS EM:</b></p>
+                  <p>Hipertrofia Total</p>
+                  <p>Suplementação Alimentar e Emagrecimento</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="professor">
+               <div class="foto">
+                  <img src="/system/images/W1siZiIsIjIwMTUvMDEvMDkvMmdwZDZjYmwwcl9BTkRSRS5wbmciXSxbInAiLCJ0aHVtYiIsIjExMHgxMTBcdTAwM2UiXV0/ANDRE.png" title="Andre" alt="Andre" data-rel="110x110" width="101" height="102" />
+               </div>
+               <div class="nome-professor">
+                  <h3>André Luis Borges de Freitas</h3>
+               </div>
+               <div>
+                  <p><b>GRADUAÇÃO:</b> Licenciatura plena em Educação Física</p>
+                  <p><b>CURSOS EM: </b>Reabilitação em joelho</p>
+                  <p><b>PÓS-GRADUAÇÃO:</b>Especialista em Fisiologia do Exercício, Treinamento Desportivo e Psicopedagogia</p>
+                  <p><b>MESTRADO:</b>Mestrando em Ciências da Educação</p>
+               </div>
+            </div>
+         </div>
       </div>
-
-
-      <div class="professor">
-        <div class="foto">
-          <img src="/system/images/W1siZiIsIjIwMTUvMDEvMDkvMmdwZDZjYmwwcl9BTkRSRS5wbmciXSxbInAiLCJ0aHVtYiIsIjExMHgxMTBcdTAwM2UiXV0/ANDRE.png" title="Andre" alt="Andre" data-rel="110x110" width="101" height="102" />
-        </div>
-        <div class="nome-professor">
-          <h3>André Luis Borges de Freitas</h3>
-        </div>
-        <div>
-          <p><b>GRADUAÇÃO:</b> Licenciatura plena em Educação Física</p>
-          <p><b>CURSOS EM: </b>Reabilitação em joelho</p>
-          <p><b>PÓS-GRADUAÇÃO:</b>Especialista em Fisiologia do Exercício, Treinamento Desportivo e Psicopedagogia</p>
-          <p><b>MESTRADO:</b>Mestrando em Ciências da Educação</p>
-        </div>
+      <div class="row">
+         <div class="col-md-6">
+            <div class=" professor">
+               <div class="foto">
+                  <img src="/system/images/W1siZiIsIjIwMTUvMDEvMDkvNTU0eDcyYmlraF9KSE9OQVRBTi5wbmciXSxbInAiLCJ0aHVtYiIsIjExMHgxMTBcdTAwM2UiXV0/JHONATAN.png" title="Jhonatan" alt="Jhonatan" data-rel="110x110" width="101" height="102" />
+               </div>
+               <div class="nome-professor">
+                  <h3>Jhonatan Trindade Picini</h3>
+               </div>
+               <div>
+                  <p><b>GRADUAÇÃO:</b> Bacharelado em Educação Física</p>
+                  <p><b>CURSOS EM:</b></p>
+                  <p>Personal Trainning</p>
+                  <p> Fisiologia do Exercício</p>
+                  <p> Pilates Solo – Bola Suíça</p>
+                  <p> Nutrição Esportiva</p>
+                  <p> Treinamento Funcional e Core</p>
+                  <p>Suplementação Alimentar e Emagrecimento</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class=" professor">
+               <div class="foto">
+                  <img src="/system/images/W1siZiIsIjIwMTUvMDEvMDkvNjhjc2hodmhzal9USUFHTy5wbmciXSxbInAiLCJ0aHVtYiIsIjExMHgxMTBcdTAwM2UiXV0/TIAGO.png" title="Tiago" alt="Tiago" data-rel="110x110" width="101" height="102" />
+               </div>
+               <div class="nome-professor">
+                  <h3>Tiago Korlikoski de Souza</h3>
+               </div>
+               <div>
+                  <p><b>GRADUAÇÃO:</b> Estudante de Bacharelado em Educação Física</p>
+               </div>
+            </div>
+         </div>
       </div>
-
-
-    </div>
-
-
-
-    <div class="row">
-
-      <div class=" professor">
-        <div class="foto">
-          <img src="/system/images/W1siZiIsIjIwMTUvMDEvMDkvNTU0eDcyYmlraF9KSE9OQVRBTi5wbmciXSxbInAiLCJ0aHVtYiIsIjExMHgxMTBcdTAwM2UiXV0/JHONATAN.png" title="Jhonatan" alt="Jhonatan" data-rel="110x110" width="101" height="102" />
-        </div>
-        <div class="nome-professor">
-          <h3>Jhonatan Trindade Picini</h3>
-        </div>
-        <div>
-          <p><b>GRADUAÇÃO:</b> Bacharelado em Educação Física</p>
-          <p><b>CURSOS EM:</b></p>
-          <p>Personal Trainning</p>
-          <p> Fisiologia do Exercício</p>
-          <p> Pilates Solo – Bola Suíça</p>
-          <p> Nutrição Esportiva</p>
-          <p> Treinamento Funcional e Core</p>
-          <p>Suplementação Alimentar e Emagrecimento</p>
-        </div>
-      </div>
-
-
-      <div class=" professor">
-        <div class="foto">
-          <img src="/system/images/W1siZiIsIjIwMTUvMDEvMDkvNjhjc2hodmhzal9USUFHTy5wbmciXSxbInAiLCJ0aHVtYiIsIjExMHgxMTBcdTAwM2UiXV0/TIAGO.png" title="Tiago" alt="Tiago" data-rel="110x110" width="101" height="102" />
-        </div>
-        <div class="nome-professor">
-          <h3>Tiago Korlikoski de Souza</h3>
-        </div>
-        <div>
-          <p><b>GRADUAÇÃO:</b> Estudante de Bacharelado em Educação Física</p>
-        </div>
-      </div>
-    </div>
-  </div>
+   </div>
