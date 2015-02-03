@@ -33,13 +33,12 @@ a:hover{
   text-shadow: 3px 4px 6px rgba(150, 150, 150, 1);
 }
 body{
-  background: url("/assets/fundo-direita.jpg") repeat-y right top !important;
-  background-color: #fff;
-
+  background: url("/assets/fundo-direita.png") repeat-y right top !important;
+  background-color: #fff; 
   margin: 0;
 }
 .container-fluid {
-  background:url("/assets/fundo-esquerda.jpg") repeat-y left top !important;
+  background:url("/assets/fundo-esquerda.pg") repeat-y left top !important;
 }
 #fundo {
   height: 166px;
