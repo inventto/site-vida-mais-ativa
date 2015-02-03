@@ -60,7 +60,9 @@ body{
   height: 150px;
   margin: 0 auto;
   width: 70%;
-  background: url("/assets/fundo-topo.png") no-repeat right top #fff;
+  background: url("/assets/fundo-topo.svg") no-repeat right top #fff;
+  background-size: 100%;
+  background-position: -50px -35px;
 }
 
 #top .menu{
@@ -168,8 +170,6 @@ h1 {
   border-radius: 8px;
 }
 .professor, .modalidade {
-
-
   background: #e0e3e5 !important;
   border-radius: 8px;
 }
@@ -178,6 +178,12 @@ h1 {
   min-height:450px;
   text-align: justify;
   padding: 4%;
+}
+.professor img{
+  margin:10px auto;
+}
+.nome-professor{
+  text-align:center;
 }
 .modalidade{
   min-height:250px;
