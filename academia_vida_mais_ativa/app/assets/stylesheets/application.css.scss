@@ -19,60 +19,31 @@
 
 @import 'normalize';
 
-@font-face{
-  font-family: "Kunstler Script";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Kunstler Script"), url('./fonts/Kunstler.ttf') format('truetype');
-}
-@font-face{
-  font-family: "JasmineUPC";
-  font-style: normal;
-  font-weight: normal;
-  src: local("JasmineUPC"),  local("JasmineUPC, Regular"), url('fonts/JasmineUPC.ttf') format('truetype');
-}
-@font-face{
-  font-family: "Broadway";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Broadway BT"), local("Broadway BT, Regular"), url('fonts/Broadway.ttf') format('truetype');
-}
-@font-face{
-  font-family: "Bauhaus93";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Bauhaus 93"), local("Bauhaus 93, Regular"), url('fonts/Bauhaus93.ttf') format('truetype');
-}
-@font-face{
-  font-family: "CooperBlack";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Cooper Black"), local("Cooper Black, Regular"), url('fonts/CooperBlack.ttf') format('truetype');
-}
 *{
   font-family: Verdana, Arial, Helvetica;
-  color: #000;
 }
 a{
-  color: #000 !important;
+  color: #000;
 }
 
 a:hover{
-  color: #CD0000 !important;
+  color: #CD0000;
+  text-decoration: none;
   transition: color 0.5s;
   text-shadow: 3px 4px 6px rgba(150, 150, 150, 1);
 }
 body{
-  background: url("/assets/fundo-direita.jpg") repeat-y right top !important;
-  background-color: #000;
+//  background: url("/assets/fundo-direita.jpg") repeat-y right top !important;
+  background-color: #fff;
   margin: 0;
 }
 .container-fluid {
-  background:url("/assets/fundo-esquerda.jpg") repeat-y left top !important;
+//  background:url("/assets/fundo-esquerda.jpg") repeat-y left top !important;
 }
 #fundo {
   height: 166px;
 }
+
 #top_wrapper{
   z-index: 18 !important;
   position: fixed;
@@ -99,7 +70,7 @@ body{
   width: 100%;
   margin: 97px 0 0;
   background: #bdc3c7;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 20px;
 }
 .menu ul {
   float: right;
@@ -175,7 +146,6 @@ h1 {
 }
 .inventto{
   width:100%;
-
   background:#333;
   padding:1%;
 }
@@ -206,7 +176,7 @@ h1 {
   margin: 5px;
   text-align: justify;
   background: #e0e3e5 !important;
-  border-radius: 8px 8px 8px 8px;
+  border-radius: 8px;
 }
 
 .professor {
@@ -214,7 +184,7 @@ h1 {
   margin: 5px;
   text-align: justify;
   background: #e0e3e5 !important;
-  border-radius: 8px 8px 8px 8px;
+  border-radius: 8px;
 }
 
 .valores {
@@ -224,17 +194,14 @@ h1 {
   padding: 4%;
   text-align: center;
   background: #e0e3e5 !important;
-  border-radius: 8px 8px 8px 10px;
+  border-radius: 8px;
   margin-bottom:4%;
 }
 .titulo_missao {
   font-weight: bold;
   color: #CD0000 !important;
 }
-.container-fluid .titulo_valores {
-  font-weight: bold;
-  color: #CD0000 !important;
-}
+
 .titulo_historia {
   font-weight: bold;
   color: #CD0000 !important;
@@ -243,42 +210,20 @@ h1 {
   color: #CD0000 !important;
   text-decoration: underline;
 }
-.mapa {
-  margin-top: 8%;
-}
-.contato {
-  margin-top: 7%;
-}
+
 .contato-descricao {
   text-align: center;
   background: #e0e3e5 !important;
   padding: 10px;
-  border-radius: 30px;
+  margin: 2%;
+  border-radius: 8px;
 }
 .title-contato {
   text-align: center;
   font-weight: bold;
   color: #CD0000 !important;
 }
-.equipe-2 .professor-4,
-.equipe-2 .professor-3,
-.equipe-1 .professor-2,
-.equipe-1 .professor-1 {
-  padding: 10px;
-  background: #e0e3e5 !important;
-  border-radius: 8px;
-  padding:4%;
-  height:250px;
-}
-.equipe-2 .professor-4,
-.equipe-2 .professor-3 {
-  margin-bottom: 1%;
-}
-.nome-professor h3{
-  font-weight: bold;
-  color: #CD0000 !important;
-  margin-top: 65px !important;
-}
+
 .imagem-personal-trainer img {
   margin-left: 40px !important;
 }
@@ -287,41 +232,16 @@ h1 {
 .titulo-personal-trainer {
   margin-top: 9% !important;
 }
-.titulo-ginastica-laboral h3,
-.titulo-zumba h3,
-.titulo-aero-step h3,
-.titulo-aero-mix h3,
-.titulo-aero-jump h3,
-.titulo-aero-dance h3,
-.titulo-ginasticas h3,
-.titulo-avaliacao-fisica h3,
-.titulo-alongamento h3,
-.titulo-funcional h3,
-.titulo-musculacao h3,
-.titulo-personal-trainer h3 {
+
+h3 {
   font-weight: bold;
   color: #CD0000 !important;
 }
-.nome-professor-2,
-.imagem-professor-2,
-.nome-professor-1,
-.imagem-professor-1 {
-  margin-top: 10%;
-}
-.nome-professor-4,
-.imagem-professor-4,
-.nome-professor-3,
-.imagem-professor-3 {
-  margin-top: 3%;
-}
-.imagem-professor-4 img,
-.imagem-professor-3 img,
-.imagem-professor-2 img,
-.imagem-professor-1 img {
-  width: 100px !important;
-  height: 100px !important;
+
+.foto img {
   display: block;
-  border-radius: 50em;
+  border:1px solid #000;
+  border-radius: 50%;
 }
 table{
   border-radius:3px;
@@ -369,7 +289,7 @@ object{
   margin-bottom: 10px;
   padding: 10px;
   background: #e0e3e5 !important;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px;
 }
 .caixa-de-texto p span {
   font-weight: bold;
@@ -390,6 +310,16 @@ ul.pgwSlider>li span,
 }
 #img-selo {
   position: fixed;
-  right: 0;
-  top: 0;
+  right: 5%;
+  top: 3%;
+}
+.carousel-caption{
+  display:none;
+}
+.carousel-indicators li{
+  border: 3px solid #757575 !important;
+}
+
+iframe{
+  width: 100%;
 }

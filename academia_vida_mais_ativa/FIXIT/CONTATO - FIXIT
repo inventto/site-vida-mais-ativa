@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h3>MAPA</h3>
+      <p><iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Academia+Vida+Mais+Ativa+-+Rua+Uni%C3%A3o+da+Vit%C3%B3ria,+Francisco+Beltr%C3%A3o+-+Paran%C3%A1&amp;aq=0&amp;oq=vida+mais+at&amp;sll=-25.060763,-53.397998&amp;sspn=1.11213,2.024231&amp;ie=UTF8&amp;hq=Academia+Vida+Mais+Ativa+-&amp;hnear=R.+Uni%C3%A3o+da+Vit%C3%B3ria+-+Francisco+Beltr%C3%A3o+-+Paran%C3%A1&amp;ll=-26.07231,-53.038941&amp;spn=0.006295,0.006295&amp;t=m&amp;output=embed"></iframe>
+      </p>
+      <small><a href="https://maps.google.com.br/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=Academia+Vida+Mais+Ativa+-+Rua+Uni%C3%A3o+da+Vit%C3%B3ria,+Francisco+Beltr%C3%A3o+-+Paran%C3%A1&amp;aq=0&amp;oq=vida+mais+at&amp;sll=-25.060763,-53.397998&amp;sspn=1.11213,2.024231&amp;ie=UTF8&amp;hq=Academia+Vida+Mais+Ativa+-&amp;hnear=R.+Uni%C3%A3o+da+Vit%C3%B3ria+-+Francisco+Beltr%C3%A3o+-+Paran%C3%A1&amp;ll=-26.07231,-53.038941&amp;spn=0.006295,0.006295&amp;t=m" style="color:#0000FF;text-align:left">Exibir mapa ampliado</a>
+      </small>
+    </div>
+    <div class="col-md-6 contato">
+      <h3>CONTATO</h3>
+      <div class="contato-descricao">
+        <p>A academia Vida+Ativa esta localizada próximo a Praça do Bairro Vila Nova:</p>
+        <h3><strong>Avenida União da Vitória, 407</strong></h3>
+        <h3><strong>Vila Nova, Francisco Beltrão-PR</strong></h3>
+        <h3><strong>Fone: (46) 3524-2541</strong></h3>
+        <h3><strong>Fone: (46) 3057-2541</strong></h3>
+        <a href="http://facebook.com.br/AcademiaVidaMaisAtiva"><img src="/assets/facebook.png" width="50px" title="Facebook Vida Mais Ativa" /></a>
+        <a href="mailto:vidamaisativa@hotmail.com"><img src="/assets/hotmail.png" width="55px" title="Hotmail Vida Mais Ativa" /></a>
+      </div>
+    </div>
+  </div>
+</div>
