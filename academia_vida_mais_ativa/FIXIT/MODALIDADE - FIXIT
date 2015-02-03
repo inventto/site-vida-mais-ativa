@@ -1,7 +1,7 @@
 <div class="container">
 
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-sm-6 col-md-3">
       <div class="modalidade">
         <div class="foto">
           <a href="/modalidades/musculacao" class="paginas"><img src="/system/images/W1siZiIsIjIwMTQvMTIvMTgvM2hhZW55cGoxel9WSURBX0FUSVZBX1NJVEVfMjAxNV9DT05FU19NT0RBTElEQURFU19tdXNjdWxhX28ucG5nIl0sWyJwIiwidGh1bWIiLCIxMTB4MTEwXHUwMDNlIl1d/VIDA%20ATIVA%20-%20SITE%202015%20%C3%8DCONES%20MODALIDADES%20-%20muscula%C3%A7%C3%A3o.png" title="Musculação" alt="Musculação" data-rel="110x110" width="110" height="110" /></a>
@@ -11,7 +11,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-sm-6 col-md-3">
       <div class="modalidade">
         <div class="foto">
           <img src="/system/images/W1siZiIsIjIwMTQvMTIvMTgvMm11YWFreXN0Yl9WSURBX0FUSVZBX1NJVEVfMjAxNV9DT05FU19NT0RBTElEQURFU19wZXJzb25hbF90cmFpbmVyLnBuZyJdLFsicCIsInRodW1iIiwiMTEweDExMFx1MDAzZSJdXQ/VIDA%20ATIVA%20-%20SITE%202015%20%C3%8DCONES%20MODALIDADES%20-%20personal%20trainer.png" title="Vida Ativa   Site 2015 Ícones Modalidades   Personal Trainer" alt="Vida Ativa   Site 2015 Ícones Modalidades   Personal Trainer" data-rel="110x110" width="109" height="110" />
@@ -21,7 +21,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-sm-6 col-md-3">
       <div class="modalidade">
         <div class="foto">
           <a href="/modalidades/funcional" class="paginas"><img src="/system/images/W1siZiIsIjIwMTQvMTIvMTgvNWZhMjZsdWszeF9WSURBX0FUSVZBX1NJVEVfMjAxNV9DT05FU19NT0RBTElEQURFU19mdW5jaW9uYWwucG5nIl0sWyJwIiwidGh1bWIiLCIxMTB4MTEwXHUwMDNlIl1d/VIDA%20ATIVA%20-%20SITE%202015%20%C3%8DCONES%20MODALIDADES%20-%20funcional.png" title="Modalidade Funcional" alt="Modalidade Funcional" data-rel="110x110" width="110" height="110" /></a>
@@ -31,7 +31,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-sm-6 col-md-3">
       <div class="modalidade">
         <div class="foto">
           <a href="/modalidades/alongamento" class="paginas">
@@ -46,7 +46,7 @@
   </div>
 
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-sm-6 col-md-3">
       <div class="modalidade">
         <div class="foto">
           <a href="/modalidades/avaliacao-fisica-e-postural" class="paginas">
@@ -58,7 +58,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-sm-6 col-md-3">
       <div class="modalidade">
         <div class="foto">
           <a href="/modalidades/ginastica" class="paginas">
@@ -70,7 +70,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-sm-6 col-md-3">
       <div class="modalidade">
         <div class="foto">
           <a href="/modalidades/aero-dance" class="paginas">
@@ -82,7 +82,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-sm-6 col-md-3">
       <div class="modalidade">
         <div class="foto">
           <a href="/modalidades/aero-jump" class="paginas">
@@ -97,7 +97,7 @@
   </div>
 
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-sm-6 col-md-3">
       <div class="modalidade">
         <div class="foto">
           <a href="/modalidades/aeromix" class="paginas">
@@ -109,7 +109,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-sm-6 col-md-3">
       <div class="modalidade">
         <div class="foto">
           <a href="/modalidades/aerostep" class="paginas">
@@ -121,7 +121,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-sm-6 col-md-3">
       <div class="modalidade">
         <div class="foto">
           <a href="/modalidades/zumba" class="paginas">
@@ -133,7 +133,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-sm-6 col-md-3">
       <div class="modalidade">
         <div class="foto">
           <a href="/modalidades/ginastica-laboral" class="paginas">
