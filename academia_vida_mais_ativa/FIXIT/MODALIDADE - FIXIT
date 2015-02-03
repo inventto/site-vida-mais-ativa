@@ -1,0 +1,149 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-3">
+      <div class="modalidade">
+        <div class="foto">
+          <a href="/modalidades/musculacao" class="paginas"><img src="/system/images/W1siZiIsIjIwMTQvMTIvMTgvM2hhZW55cGoxel9WSURBX0FUSVZBX1NJVEVfMjAxNV9DT05FU19NT0RBTElEQURFU19tdXNjdWxhX28ucG5nIl0sWyJwIiwidGh1bWIiLCIxMTB4MTEwXHUwMDNlIl1d/VIDA%20ATIVA%20-%20SITE%202015%20%C3%8DCONES%20MODALIDADES%20-%20muscula%C3%A7%C3%A3o.png" title="Musculação" alt="Musculação" data-rel="110x110" width="110" height="110" /></a>
+        </div>
+        <div class="nome-modalidade">
+          <h3>Musculação</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="modalidade">
+        <div class="foto">
+          <img src="/system/images/W1siZiIsIjIwMTQvMTIvMTgvMm11YWFreXN0Yl9WSURBX0FUSVZBX1NJVEVfMjAxNV9DT05FU19NT0RBTElEQURFU19wZXJzb25hbF90cmFpbmVyLnBuZyJdLFsicCIsInRodW1iIiwiMTEweDExMFx1MDAzZSJdXQ/VIDA%20ATIVA%20-%20SITE%202015%20%C3%8DCONES%20MODALIDADES%20-%20personal%20trainer.png" title="Vida Ativa   Site 2015 Ícones Modalidades   Personal Trainer" alt="Vida Ativa   Site 2015 Ícones Modalidades   Personal Trainer" data-rel="110x110" width="109" height="110" />
+        </div>
+        <div class="nome-modalidade">
+          <h3>Personal Trainer</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="modalidade">
+        <div class="foto">
+          <a href="/modalidades/funcional" class="paginas"><img src="/system/images/W1siZiIsIjIwMTQvMTIvMTgvNWZhMjZsdWszeF9WSURBX0FUSVZBX1NJVEVfMjAxNV9DT05FU19NT0RBTElEQURFU19mdW5jaW9uYWwucG5nIl0sWyJwIiwidGh1bWIiLCIxMTB4MTEwXHUwMDNlIl1d/VIDA%20ATIVA%20-%20SITE%202015%20%C3%8DCONES%20MODALIDADES%20-%20funcional.png" title="Modalidade Funcional" alt="Modalidade Funcional" data-rel="110x110" width="110" height="110" /></a>
+        </div>
+        <div class="nome-modalidade">
+          <h3>Funcional</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="modalidade">
+        <div class="foto">
+          <a href="/modalidades/alongamento" class="paginas">
+            <img src="/system/images/W1siZiIsIjIwMTQvMTIvMTkvNGRwNnNlYWtkcl9WSURBX0FUSVZBX1NJVEVfMjAxNV9DT05FU19NT0RBTElEQURFU19hbG9uZ2FtZW50by5wbmciXSxbInAiLCJ0aHVtYiIsIjExMHgxMTBcdTAwM2UiXV0/VIDA%20ATIVA%20-%20SITE%202015%20%C3%8DCONES%20MODALIDADES%20-%20alongamento.png" title="Vida Ativa   Site 2015 Ícones Modalidades   Alongamento" alt="Vida Ativa   Site 2015 Ícones Modalidades   Alongamento" data-rel="110x110" width="108" height="110" />
+          </a>
+        </div>
+        <div class="nome-modalidade">
+          <h3>Alongamento</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+      <div class="modalidade">
+        <div class="foto">
+          <a href="/modalidades/avaliacao-fisica-e-postural" class="paginas">
+            <img src="/system/images/W1siZiIsIjIwMTQvMTIvMTkvN2swZmhxdGMwNV9WSURBX0FUSVZBX1NJVEVfMjAxNV9DT05FU19NT0RBTElEQURFU19hdmFsaWFfb19mX3NpY2FfZV9wb3N0dXJhbC5wbmciXSxbInAiLCJ0aHVtYiIsIjExMHgxMTBcdTAwM2UiXV0/VIDA%20ATIVA%20-%20SITE%202015%20%C3%8DCONES%20MODALIDADES%20-%20avalia%C3%A7%C3%A3o%20f%C3%ADsica%20e%20postural.png" title="Modalidade Avaliação Física E Postural" alt="Modalidade Avaliação Física E Postural" data-rel="110x110" width="110" height="110" />
+          </a>
+        </div>
+        <div class="nome-modalidade">
+          <h3>Avaliação Física e Postural</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="modalidade">
+        <div class="foto">
+          <a href="/modalidades/ginastica" class="paginas">
+            <img src="/system/images/W1siZiIsIjIwMTQvMTIvMTkvNGJ3aTBhN2FhMV9WSURBX0FUSVZBX1NJVEVfMjAxNV9DT05FU19NT0RBTElEQURFU19naW5fc3RpY2FzLnBuZyJdLFsicCIsInRodW1iIiwiMTEweDExMFx1MDAzZSJdXQ/VIDA%20ATIVA%20-%20SITE%202015%20%C3%8DCONES%20MODALIDADES%20-%20gin%C3%A1sticas.png" title="Modalidade Ginástica" alt="Modalidade   Ginástica" data-rel="110x110" width="110" height="110" />
+          </a>
+        </div>
+        <div class="nome-modalidade">
+          <h3>Ginásticas</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="modalidade">
+        <div class="foto">
+          <a href="/modalidades/aero-dance" class="paginas">
+            <img src="/system/images/W1siZiIsIjIwMTQvMTIvMTkvMzhnYWs1cGl5NV9WSURBX0FUSVZBX1NJVEVfMjAxNV9DT05FU19NT0RBTElEQURFU19hZXJvX2RhbmNlLnBuZyJdLFsicCIsInRodW1iIiwiMTEweDExMFx1MDAzZSJdXQ/VIDA%20ATIVA%20-%20SITE%202015%20%C3%8DCONES%20MODALIDADES%20-%20aero%20dance.png" title="Modalidade Aero Dance" alt="Modalidade   Aero Dance" data-rel="110x110" width="110" height="110" />
+          </a>
+        </div>
+        <div class="nome-modalidade">
+          <h3>Aero Dance</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="modalidade">
+        <div class="foto">
+          <a href="/modalidades/aero-jump" class="paginas">
+            <img src="/system/images/W1siZiIsIjIwMTQvMTIvMTkvN2NqaXQ2bm0zal9WSURBX0FUSVZBX1NJVEVfMjAxNV9DT05FU19NT0RBTElEQURFU19hZXJvX2p1bXAucG5nIl0sWyJwIiwidGh1bWIiLCIxMTB4MTEwXHUwMDNlIl1d/VIDA%20ATIVA%20-%20SITE%202015%20%C3%8DCONES%20MODALIDADES%20-%20aero%20jump.png" title="Modalidade Aero Jump" alt="Modalidade Aero Jump" data-rel="110x110" width="110" height="110" />
+          </a>
+        </div>
+        <div class="nome-modalidade">
+          <h3>Aero Jump</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+      <div class="modalidade">
+        <div class="foto">
+          <a href="/modalidades/aeromix" class="paginas">
+            <img src="/system/images/W1siZiIsIjIwMTQvMTIvMTkvNHJ1dHFmaHJreF9WSURBX0FUSVZBX1NJVEVfMjAxNV9DT05FU19NT0RBTElEQURFU19hZXJvX21peC5wbmciXSxbInAiLCJ0aHVtYiIsIjExMHgxMTBcdTAwM2UiXV0/VIDA%20ATIVA%20-%20SITE%202015%20%C3%8DCONES%20MODALIDADES%20-%20aero%20mix.png" title="Modalidade Aero Mix" alt="Modalidade Aero Mix" data-rel="110x110" width="110" height="110" style="background-color: transparent;" />
+          </a>
+        </div>
+        <div class="nome-modalidade">
+          <h3>Aero Mix</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="modalidade">
+        <div class="foto">
+          <a href="/modalidades/aerostep" class="paginas">
+            <img src="/system/images/W1siZiIsIjIwMTQvMTIvMTkvMW0ycGs0eTd2M19WSURBX0FUSVZBX1NJVEVfMjAxNV9DT05FU19NT0RBTElEQURFU19hZXJvX3N0ZXAucG5nIl0sWyJwIiwidGh1bWIiLCIxMTB4MTEwXHUwMDNlIl1d/VIDA%20ATIVA%20-%20SITE%202015%20%C3%8DCONES%20MODALIDADES%20-%20aero%20step.png" title="Vida Ativa   Site 2015 Ícones Modalidades   Aero Step" alt="Modalidade Aero Step" data-rel="110x110" width="110" height="110" style="background-color: transparent;" />
+          </a>
+        </div>
+        <div class="nome-modalidade">
+          <h3>Aero Step</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="modalidade">
+        <div class="foto">
+          <a href="/modalidades/zumba" class="paginas">
+            <img src="/system/images/W1siZiIsIjIwMTQvMTIvMTkvNjZrZm1vbHc3cV9WSURBX0FUSVZBX1NJVEVfMjAxNV9DT05FU19NT0RBTElEQURFU196dW1iYS5wbmciXSxbInAiLCJ0aHVtYiIsIjExMHgxMTBcdTAwM2UiXV0/VIDA%20ATIVA%20-%20SITE%202015%20%C3%8DCONES%20MODALIDADES%20-%20zumba.png" title="Modalidade Zumba" alt="Modalidade Zumba" data-rel="110x110" width="110" height="110" />
+          </a>
+        </div>
+        <div class="nome-modalidade">
+          <h3>Zumba</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="modalidade">
+        <div class="foto">
+          <a href="/modalidades/ginastica-laboral" class="paginas">
+            <img src="/system/images/W1siZiIsIjIwMTQvMTIvMTkvOTN1eHprNG9hOV9WSURBX0FUSVZBX1NJVEVfMjAxNV9DT05FU19NT0RBTElEQURFU19naW5fc3RpY2FfbGFib3JhbC5wbmciXSxbInAiLCJ0aHVtYiIsIjExMHgxMTBcdTAwM2UiXV0/VIDA%20ATIVA%20-%20SITE%202015%20%C3%8DCONES%20MODALIDADES%20-%20gin%C3%A1stica%20laboral.png" title="Modalidades Ginástica Laboral" alt="Modalidades Ginástica Laboral" data-rel="110x110" width="110" height="110" style="background-color: transparent;" />
+          </a>
+        </div>
+        <div class="nome-modalidade">
+          <h3>Ginástica Laboral</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
