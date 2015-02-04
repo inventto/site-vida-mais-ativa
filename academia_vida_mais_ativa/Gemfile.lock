@@ -74,17 +74,6 @@ GIT
       dragonfly-s3_data_store (~> 1.0.0)
       refinerycms-core (= 3.0.0)
 
-GIT
-  remote: git://github.com/seyhunak/twitter-bootstrap-rails.git
-  revision: 1d93c5a77049b3d21d17c847ad0531d7714fa229
-  branch: bootstrap3
-  specs:
-    twitter-bootstrap-rails (3.1.1)
-      actionpack (>= 3.1)
-      execjs
-      rails (>= 3.1)
-      railties (>= 3.1)
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -120,6 +109,8 @@ GEM
       activerecord (>= 4.0.0, < 5)
     babosa (0.3.11)
     bcrypt (3.1.7)
+    bootstrap-sass (3.1.1.0)
+      sass (~> 3.2)
     builder (3.2.2)
     celluloid (0.16.0)
       timers (~> 4.0.0)
@@ -335,6 +326,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (~> 3.1.1)
   coffee-rails (~> 4.0.0)
   fastclick-rails
   font-awesome-rails
@@ -357,6 +349,5 @@ DEPENDENCIES
   sqlite3
   therubyracer
   turbolinks
-  twitter-bootstrap-rails!
   uglifier (>= 1.3.0)
   unicorn

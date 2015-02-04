@@ -64,7 +64,7 @@ body{
   background-position: -50px -35px;
 }
 
-#top .menu{
+#top .navbar-default{
   z-index: 20 !important;
   padding: 1%;
   float: right;
@@ -72,38 +72,10 @@ body{
   margin: 10% 0 0;
   background: #bdc3c7;
   border-radius: 20px;
+  border: none;
+
 }
-.menu ul {
-  float: right;
-  margin: 0 auto;
-  white-space: nowrap;
-  list-style: none;
-}
-.menu ul li {
-  float: left;
-  z-index: 4;
-}
-.menu ul li ul {
-  padding: 10px 0;
-  position: absolute;
-  display: none;
-  z-index: 1;
-}
-.menu ul li:hover ul {
-  display: block;
-}
-.menu ul li ul li {
-  float: none;
-  height: 30px;
-}
-#top .menu ul li ul li a {
-  text-decoration: none;
-  display: block;
-  color: #000 !important;
-  padding: 5px 10px;
-  background: #bdc3c7;
-}
-#top .menu ul li a {
+.navbar-default .navbar-nav > li > a{
   color: #000 !important;
 }
 #top .menu ul li ul li a:hover,
@@ -118,12 +90,11 @@ body{
 #top .menu ul li a.selecionado {
   color: #CD0000 !important;
 }
-#top .menu ul li ul li a:hover {
-  background: #bdc3c7 !important;
-}
+
 #logo{
   position: fixed;
   margin: 0 -55px 250px;
+  z-index: 100;
 }
 #logo img{
   -webkit-transition: all .1s linear;
