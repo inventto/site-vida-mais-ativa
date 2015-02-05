@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-6">
+      <h3 class="titulo_historia">História</h3>
+      <div class="historia">
+        <p>A Academia Vida Mais Ativa atua em Francisco Beltrão(PR) desde o ano de 2000, oferecendo, junto ao <a href="performancefb.com">Centro de artes Perfomance</a>, um amplo espaço direcionado para a prática de exercícios físicos em diversas modalidades.</p>
+        <p>Nosso objetivo é estimular a prática de exercícios físicos através de orientação e treinamento, melhorando assim o seu bem estar e qualidade de vida.</p>
+        <p>Aqui você encontrará profissionais qualificados para a prática de musculação, ginásticas e dança.</p>
+        <p>Agende sua Aula Experimental e atreva-se a novas vivências!</p>
+        <p>Academia Vida Mais Ativa: <strong>SUA BOA FORMA DE VIVER!</strong>
+</p>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <h3 class="titulo_valores">Valores</h3>
+      <div class="valores">
+        <p>Primar pela adoção de relações de transparência e ética com os clientes, tanto internos como externos, a fim de promover uma troca constante de informações no objetivo de trazer o bem-star de todos os frequentadores do espaço da academia, a partir de regras que promovem um bom relacionamento entre os colaboradores, dirigentes e clientes.</p>
+        <br />
+        <p>Os principais Valores da Academia Vida Mais Ativa são:</p>
+        <br />
+        <p>-Qualidade -Integridade -Respeito -Comprometimento</p>
+        <br />
+        <p>-Valorização Humana -Melhoria contínua -Inovação -Sustentabilidade</p>
+        <br />
+      </div>
+
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="titulo_missao">Missão</h3>
+      <div class="missao">
+        <p>Prestar serviço de qualidade para condicionamento físico, através de orientação e acompanhamento técnico-profissional necessários para que seus objetivos, com incentivo suficiente para promover sua saúde emocional, física e social através da prática de exercícios físicos.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
