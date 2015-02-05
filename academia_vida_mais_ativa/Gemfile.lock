@@ -153,7 +153,6 @@ GEM
     eventmachine (1.0.3)
     excon (0.39.4)
     execjs (2.2.1)
-    fastclick-rails (1.0.1)
     ffi (1.9.6)
     fog (1.23.0)
       fog-brightbox
@@ -336,9 +335,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
-  fastclick-rails
   font-awesome-rails
-  guard
   guard-livereload
   jbuilder (~> 2.0)
   jquery-rails

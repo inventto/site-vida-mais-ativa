@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="imagens-modalidades">
+      <img src="/system/images/W1siZiIsIjIwMTUvMDEvMDYvODIwa2U0cDN0b19naW5hc3RpY2EuanBnIl0sWyJwIiwidGh1bWIiLCI0NTB4NDUwXHUwMDNlIl1d/ginastica.jpg" title="Ginástica" alt="Ginástica" width="780" height="300" />
+    </div>
+</div>
+<div class="row">
+   <div class="titulos-modalidades">
+      <h2>GINÁSTICA</h2>
+   </div>
+</div>
+<div class="row">
+   <div class="col-sm-offset-2 col-sm-8 caixa-de-texto">
+      <p>A ginástica de academia é uma atividade desenvolvida por meio de um conjunto de exercícios físicos que visa trabalhar o corpo todo com o objetivo de desenvolver as qualidades físicas, mentais e sociais dos praticantes. Sendo eles:</p>
+      <ul>
+         <li>Exercícios aeróbicos: visam a melhora do condicionamento cardiorrespiratório.</li>
+         <li>Exercícios localizados: objetivam a tonicidade e força muscular.</li>
+         <li>Exercícios de flexibilidade: melhoram a postura e a elasticidade muscular e articular.</li>
+      </ul>
+      <p>Esses exercícios são praticados em sincronia com a música, contando com o estímulo do professor e da turma para desenvolver seu condicionamento e habilidades.</p>
+      <p>Tem grande gasto calórico, desenvolve a coordenação, o ritmo, a memória, capacidade de reação e da velocidade, além da capacidade aeróbia e a coordenação motora. Beneficia o aumento da resistência cardiorespiratória e muscular, fortalecimento dos ossos, tendões e ligamentos.</p>
+   </div>
+</div>

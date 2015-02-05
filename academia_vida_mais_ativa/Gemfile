@@ -63,7 +63,3 @@ gem 'seo_meta', github: 'parndt/seo_meta', branch: 'master'
 gem 'paper_trail', github: 'airblade/paper_trail', branch: 'master'
 
 gem "font-awesome-rails"
-
-gem 'guard'
-
-gem 'fastclick-rails'
