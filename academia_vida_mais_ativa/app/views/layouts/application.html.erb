@@ -12,18 +12,18 @@
     <meta name="keywords" content="Academia aeromix coreografias, Musculação, Personal Trainer, Funcional, Alongamento, Avaliação física e postural, Ginástica, Aero Dance, Aero Jump, Aeromix, Aerostep, Zumba, Ginástica Laboral, Academia vida mais ativa, Vida mais ativa, Francisco Beltrão, Paraná, academia, Vila Nova" />
     <link href="/assets/application.css" rel="stylesheet" type="text/css" />
   </head>
-
+  <div>
+    <%= render :partial => "layouts/menu" %>
+  </div>
   <body>
-    <div class="menu">
-      <%= render :partial => "layouts/menu" %>
-    </div>
+
+
     <div id="fb-root"></div>
     <div id="fundo">
       </div>
     </div>
     <div class="container-fluid">
       <%= yield %>
-      <i></i>
     </div>
     <footer id="footer">
       <div class="row">
@@ -51,39 +51,6 @@
    <script src="https://maps.googleapis.com/maps/api/js"></script>
    <script src="/assets/jquery-2.1.3.min.js"></script>
    <script src="/assets/bootstrap.js"></script>
-   <script type="text/javascript">
-      $(document).ready(function(){
-        $(function() {
-          var nav = $('#top_wrapper');
-          var img = $('#logo img');
-          var navHomeY = 90;
-          var imgHomeY = 0;
-          var $w = $(window);
-          ajustarMenu = function() {
-            var scrollTop = $w.scrollTop();
-            if (scrollTop < navHomeY) {
-              nav.css({
-                top: "-"+scrollTop+"px"
-              });
-            }
-            else {
-              nav.css({
-                top: "-"+navHomeY+"px"
-              });
-            }
-            imgWidth = 180 - scrollTop;
-            imgLeft = scrollTop / 5;
-            if (imgWidth < 96)
-              imgWidth = 70;
-              if (imgLeft > 35)
-                imgLeft = 32;
-                img.css({position: "fixed", marginLeft: imgLeft + "px", top: "4px", width: imgWidth+"px"});
-              };
-              $w.scroll(ajustarMenu);
-              ajustarMenu();
-            });
-          });
-   </script>
 
 
    <script>

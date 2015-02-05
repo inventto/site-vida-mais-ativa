@@ -35,7 +35,7 @@ a:hover{
 body{
   background: url("/assets/fundo-direita.png") repeat-y right top !important;
   background-color: #fff;
-  margin: 55px;
+  margin-top: 120px;
 }
 .container-fluid {
   background:url("/assets/fundo-esquerda.png") repeat-y left top !important;
@@ -61,32 +61,38 @@ body{
 
 }
 .navbar-default .navbar-nav > li > a{
-  color: #000 !important;
+  color: #fff !important;
 }
-#top .menu ul li ul li a:hover,
-#top .menu ul li a:hover {
-  color: #CD0000 !important;
-  transition: color 0.5s;
+
+nav.navbar.navbar-default.navbar-fixed-top{
+  background: #EF4836;
+  padding:2%;
+  border: none;
 }
-#top .menu ul li a:hover {
-  background: transparent !important;
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background: rgb(207, 36, 36)!important;
 }
-#top .menu ul li a:hover,
-#top .menu ul li a.selecionado {
-  color: #CD0000 !important;
+ul.dropdown-menu {
+  background: rgb(207, 36, 36)!important;;
 }
+.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+  color: #fff;
+  padding: 2%;
+  background: #CF000F;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+  font-weight:bold;
+  color: #fff;
+}
+
 
 #logo{
   position: fixed;
-  margin: 0 -55px 250px;
+  top:5px;
   z-index: 100;
 }
 #logo img{
-  -webkit-transition: all .1s linear;
-  -moz-transition: all .1s linear;
-  -ms-transition: all .1s linear;
-  -o-transition: all .1s linear;
-  transition: all .1s linear;
+  width:95px;
 }
 
 h1 {
@@ -102,11 +108,13 @@ h1 {
 .inventto{
   width:100%;
   background:#333;
-  color: #fff;
+  color: #6C7A89;
+  font-family: Helvetica;
+  font-size:10px;
   padding:1%;
 }
 .inventto img{
-  height:25px;
+  height:20px;
 }
 .endereco{
   text-align: center;
@@ -195,7 +203,7 @@ h1 {
 
 h3,h2 {
   font-weight: bold;
-  color: #CD0000 !important;
+  color: #EF4836 !important;
 }
 .foto img {
   display: block;
@@ -262,6 +270,10 @@ ul.pgwSlider>li span,
   -ms-transform: rotate(25deg); /* IE 9 */
   -webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
   transform: rotate(25deg);
+
+}
+#img-selo img{
+  border: 1px solid #000;
 }
 .carousel-caption{
   display:none;
