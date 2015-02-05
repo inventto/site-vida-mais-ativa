@@ -12,19 +12,13 @@
     <meta name="keywords" content="Academia aeromix coreografias, Musculação, Personal Trainer, Funcional, Alongamento, Avaliação física e postural, Ginástica, Aero Dance, Aero Jump, Aeromix, Aerostep, Zumba, Ginástica Laboral, Academia vida mais ativa, Vida mais ativa, Francisco Beltrão, Paraná, academia, Vila Nova" />
     <link href="/assets/application.css" rel="stylesheet" type="text/css" />
   </head>
+
   <body>
+    <div class="menu">
+      <%= render :partial => "layouts/menu" %>
+    </div>
     <div id="fb-root"></div>
     <div id="fundo">
-      <div id="top_wrapper">
-        <div id="top">
-          <img id="img-selo" src="/assets/selo.png" title="Academia Vida mais Ativa" width="100"/>
-          <div id="logo">
-            <a href="/home"><img src="/assets/logo_vida.png" title="Academia Vida mais Ativa"/></a>
-          </div>
-          <div class="menu">
-            <%= render :partial => "layouts/menu" %>
-          </div>
-        </div>
       </div>
     </div>
     <div class="container-fluid">
@@ -90,6 +84,8 @@
             });
           });
    </script>
+
+
    <script>
      (function(d, s, id) {
        var js, fjs = d.getElementsByTagName(s)[0];
@@ -100,6 +96,8 @@
 
        }(document, 'script', 'facebook-jssdk'));
    </script>
+
+
    <script>
      function initialize() {
        var mapCanvas = document.getElementById('map-canvas');
