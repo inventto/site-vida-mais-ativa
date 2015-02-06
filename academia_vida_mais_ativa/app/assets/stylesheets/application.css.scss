@@ -203,8 +203,8 @@ ul.pgwSlider>li span,
 #img-selo {
   width:7%;
   position: fixed;
-  right: 1%;
-  top: 3%;
+  right: 6%;
+  top: 1%;
   -moz-transform: rotate(25deg); /* firefox */
   -ms-transform: rotate(25deg); /* IE 9 */
   -webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
@@ -231,4 +231,10 @@ iframe{
   #img-selo {
      display: none;
   }
+}
+.navbar-nav{
+  float:none;
+  margin: 0 auto;
+  display: table;
+  table-layout: fixed;
 }
