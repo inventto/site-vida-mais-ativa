@@ -9,9 +9,10 @@ group :development, :test do
   gem 'guard-livereload', require: false
 end
 
-
+gem 'sendgrid-rails'
 gem 'twitter-bootstrap-rails', :github => 'seyhunak/twitter-bootstrap-rails', :branch => 'bootstrap3'
 gem "less-rails"
+gem 'dotenv-rails'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'

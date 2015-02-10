@@ -5,7 +5,6 @@ Rails.application.routes.draw do
   #
   # We ask that you don't use the :as option here, as Refinery relies on it being the default of "refinery"
   mount Refinery::Core::Engine, at: '/'
-
  
   #get '/' => 'application#index'
   # The priority is based upon order of creation: first created -> highest priority.
@@ -13,6 +12,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'application#index'
+  post "/mandar_email", to: "application#mandar_email_contato"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
