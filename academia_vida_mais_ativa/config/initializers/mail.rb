@@ -2,7 +2,7 @@ ActionMailer::Base.register_interceptor(SendGrid::MailInterceptor)
 
 ActionMailer::Base.smtp_settings = {
   :address => 'smtp.sendgrid.net',
-  :port => '25',
+  :port => '587',
   :domain => 'vidamaisativa.com',
   :authentication => :plain,
   :user_name => Rails.application.secrets.sendgrid_username,
